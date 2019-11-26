@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de registro</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h2>Completa tus datos personales</h2>
+	<form action="http://hostinggratuito3.epizy.com/accion.php" method="POST">
+		<label for="nombre" required>Nombre</label><br>
+		<input type="text" name="nombre"><br>
+
+		<label for="apellidos">Apellidos</label><br>
+		<input type="text" name="apellidos" style="width: 400px"><br>
+
+		<label for="password" required>Contraseña</label><br>
+		<input type="password" name="password"><br>
+
+		<label for="DNI" required>DNI</label><br>
+		<input type="text" name="DNI"><br>	
+
+		<label for="sexo">Sexo</label><br>
+		<input type="radio" name="sexo" value="hombre" checked>Hombre<br>	
+		<input type="radio" name="sexo" value="mujer">Mujer<br><br>
+
+		<input type="checkbox" name="sub" checked>Suscribirme al boletín de novedades<br><br>	
+
+		<input type="checkbox" name="sub" required>Acepto las condiciones de uso y el tratamiento de mis datos personales<br><br>	
+		<input type="submit" value="Enviar datos">
+		<input type="reset" value="Borrar los datos introducidos">
+	</form>
+</body>
+</html>
