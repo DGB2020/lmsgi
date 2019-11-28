@@ -1,11 +1,3 @@
-2.- Crea un documento XML para representar información referente a correos electrónicos, cada registro debe contener la siguiente información:
-⦁	Programa gestor de correo electrónico (podrán ser Thunderbird, Outlook o Evolution,
- cada uno de los programas de correo debe tener
-  asociado un espacio de nombres).
-⦁	Mensajes de correo electrónico:
-⦁	Cada mensaje tiene uno o varios destinatarios y un origen.
-⦁	Tiene un asunto y un cuerpo.
-⦁	Se puede agregar varios ficheros adjuntos.
 <?xml version="1.0" encoding="UTF-8"?>
 <correos>
     <mensaje>
