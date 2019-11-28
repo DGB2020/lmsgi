@@ -1,12 +1,1 @@
-
-
-Teniendo los siguientes ficheros XML, crea un único fichero XML, 
-asignando espacios de nombres, en el que se representen conjuntamente
- los profesores y los alumnos de cada curso.
-En el XML que crees tienes que usar el elemento profesor tal como está 
-definido en el XML de docentes, es decir, no puedes modificar, acortar,
- ni eliminar, 
-la etiquetas utilizadas en la definición completa del elemento profesor). 
-Para crear el nuevo XML, sabes que el curso de “xml” lo imparte “Manu” y 
-el de “php” lo imparte “Luis”.
 <?xml version="1.0" encoding="UTF-8"?>
