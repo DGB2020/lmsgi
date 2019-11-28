@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <geografiaMundial>
+
     <pais>
         <nombre>España</nombre>
         <continente>Europa</continente>
-        <capital>nombre="Madrid"</capital>
+        <capital>Madrid</capital>
     </pais>
+
 </geografiaMundial>
