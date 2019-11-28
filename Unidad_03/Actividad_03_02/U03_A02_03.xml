@@ -1,25 +1,47 @@
-3.- Realiza un documento XML para almacenar la siguiente información de una pizzería. Se debe crear un espacio de nombres para cada tipo de pizza; y el nombre y el precio de la pizza se guardarán como atributos.
-Pizza	Precio	Ingredientes
-	8	Salsa Barbacoa, Pollo, Bacon, Jamón, Ternera
-	7	Tomate, Mozarella, Jamón, Piña, Queso
-4 Quesos	7	Tomate, Mezcla de 4 quesos
-Margarita	6	Tomate, Jamón, Queso
-
+<?xml version="1.0" encoding="UTF-8"?>
 <carta>
+
     <pizza>
         <nombre>Barbacoa</nombre>
-        <precio></precio>
+        <precio>8</precio>
         <ingredientes>
             <ingrediente>Salsa Barbacoa</ingrediente>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Bacon</ingrediente>
+            <ingrediente>Jamón</ingrediente>
+            <ingrediente>Ternera</ingrediente>
         </ingredientes>
     </pizza>
 
     <pizza>
         <nombre>Hawaiana</nombre>
-        <precio></precio>
+        <precio>7</precio>
+        <ingredientes>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Mozarella</ingrediente>
+            <ingrediente>Jamón</ingrediente>
+            <ingrediente>Piña</ingrediente>
+            <ingrediente>Queso</ingrediente>
+        </ingredientes>
     </pizza>
 
     <pizza>
-        <nombre></nombre>
+        <nombre>4 Quesos</nombre>
+        <precio>7</precio>
+        <ingredientes>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Mezcla de 4 quesos</ingrediente>
+        </ingredientes>
     </pizza>
+
+    <pizza>
+        <nombre>Margarita</nombre>
+        <precio>6</precio>
+        <ingredientes>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Mozarella</ingrediente>
+            <ingrediente>Orégano</ingrediente>
+        </ingredientes>
+    </pizza>
+
 </carta>

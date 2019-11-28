@@ -1,17 +1,96 @@
-.- Realiza un documento XML que guarde la siguiente información de los alumnos asistentes a un curso. Cada centro debe tener asociado un espacio de nombres.
-Apellidos 	Nombre 	Centro 	Localidad
-García Pérez 	Ana 	I.E.S. Número 1 	Gijón
-Martín López 	Luisa 	C.I.F.P. de Avilés 	Avilés
-González Rubiera 	Pedro 	I.E.S. Doctor Fleming 	Oviedo
-Fernández Uría 	José Luis 	I.E.S. Número 1 	Gijón
-Díaz del Olmo 	Belén 	I.E.S. Número 1 	Gijón
-Rodríguez Marqués 	Lucía 	I.E.S. Número 1 	Gijón
-Viejo Pérez 	Ernesto 	C.I.F.P. de Avilés 	Avilés
-Nava Domínguez 	Fernando 	I.E.S. Número 1 	Gijón
-García del Riego 	Clara 	I.E.S. Bernaldo de Quirós 	Mieres
-Gómez Lamela 	Javier 	CIFP Sectores Industrial y de Servicios 	Gijón
-Reigal Pérez 	Sofía 	I.E.S. Sánchez Lastra 	Mieres
-García González 	Eva 	I.E.S. Número 1 	Gijón
-Álvarez Cortés 	Óscar 	CIFP Sectores Industrial y de Servicios 	Gijón
-Rodríguez Nieto 	Luciano 	I.E.S. Bernaldo de Quirós 	Mieres
-Criado Martínez 	Bernardo 	I.E.S. Número 1 	Gijón
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+
+    <alumno>
+        <apellidos>García Pérez </apellidos>
+        <nombre>Ana </nombre>
+        <centro>I.E.S. Número 1 </centro>
+        <localidad>Gijón</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Martín López </apellidos>
+        <nombre>Luisa </nombre>
+        <centro>C.I.F.P. de Avilés </centro>
+        <localidad>	Avilés</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>González Rubiera </apellidos>
+        <nombre>Pedro </nombre>
+        <centro>I.E.S. Doctor Fleming </centro>
+        <localidad>Oviedo</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Fernández Uría </apellidos>
+        <nombre>José Luis </nombre>
+        <centro>I.E.S. Número 1 </centro>
+        <localidad>	Gijón</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Díaz del Olmo </apellidos>
+        <nombre>Belén </nombre>
+        <centro>I.E.S. Número 1 </centro>
+        <localidad>	Gijón</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Rodríguez Marqués</apellidos>
+        <nombre>Lucía </nombre>
+        <centro>	I.E.S. Número 1 </centro>
+        <localidad>Gijón</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Viejo Pérez </apellidos>
+        <nombre>Ernesto </nombre>
+        <centro>C.I.F.P. de Avilés </centro>
+        <localidad>	Avilés</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Nava Domínguez</apellidos>
+        <nombre>Fernando</nombre>
+        <centro>	I.E.S. Número 1 </centro>
+        <localidad>Gijón</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>García del Riego</apellidos>
+        <nombre>Clara</nombre>
+        <centro>I.E.S. Bernaldo de Quirós</centro>
+        <localidad>Mieres</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Gómez Lamela</apellidos>
+        <nombre>Javier</nombre>
+        <centro>CIFP Sectores Industrial y de Servicios</centro>
+        <localidad>Gijón</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Reigal Pérez </apellidos>
+        <nombre>Sofía</nombre>
+        <centro>I.E.S. Sánchez Lastra </centro>
+        <localidad>Mieres</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>García González </apellidos>
+        <nombre>Eva</nombre>
+        <centro>I.E.S. Número 1 </centro>
+        <localidad>Gijón</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Álvarez Cortés</apellidos>
+        <nombre>Óscar</nombre>
+        <centro>CIFP Sectores Industrial y de Servicios</centro>
+        <localidad>Gijón</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Rodríguez Nieto </apellidos>
+        <nombre>Luciano</nombre>
+        <centro>I.E.S. Bernaldo de Quirós</centro>
+        <localidad>Mieres</localidad>
+    </alumno>
+    <alumno>
+        <apellidos>Criado Martínez</apellidos>
+        <nombre>Bernardo</nombre>
+        <centro>	I.E.S. Número 1</centro>
+        <localidad>Gijón</localidad>
+    </alumno>                                                    
+
+
+</alumnos>
