@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<texto><Titulo>XML explicado a los niños</titulo>
+<texto>
+    <titulo>XML explicado a los niños
+    </titulo>
     <párrafo>
         El <abreviatura>XML</abreviatura>
         define cómo crear lenguajes de marcas.
