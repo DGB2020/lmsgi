@@ -1,0 +1,7 @@
+3.- Realiza un documento XML para almacenar la siguiente información de una pizzería. Se debe crear un espacio de nombres para cada tipo de pizza; y el nombre y el precio de la pizza se guardarán como atributos.
+Pizza	Precio	Ingredientes
+Barbacoa	8	Salsa Barbacoa, Pollo, Bacon, Jamón, Ternera
+Hawaiana	7	Tomate, Mozarella, Jamón, Piña, Queso
+4 Quesos	7	Tomate, Mezcla de 4 quesos
+Margarita	6	Tomate, Jamón, Queso
+
