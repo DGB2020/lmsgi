@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-
 <carta>
     <menu precio="10" tarjeta="no">
         <comida>
@@ -9,7 +8,6 @@
         </comida>
         <bebida tamaño="0.5">    agua
         </bebida>
-
     </menu>
     <menu precio="25" tarjeta="si">
         <comida>
