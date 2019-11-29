@@ -2,9 +2,9 @@
 <com:document xmlns:com="http://www.lmsgi.net/comidas">
     <menu precio="10" tarjeta="no">
         <comida>
-        <primero>sopa <opcion tipo="sobre"/>></primero>
-        <com:segundo>chuleta<opcion tipo="cerdo"/>></segundo>
-        <postre >flan<opcion tipo="huevo"/>></postre>
+        <primero>sopa <opcion tipo="sobre"/></primero>
+        <segundo>chuleta<opcion tipo="cerdo"/></segundo>
+        <postre >flan<opcion tipo="huevo"/></postre>
         <bebida tamaño="0.5">    agua</bebida>
 
     </menu>
