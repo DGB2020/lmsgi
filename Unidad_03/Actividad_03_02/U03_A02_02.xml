@@ -29,6 +29,6 @@ xmlns:evo="http://www.lmsgi.net/evolution"
         <evo:asunto></evo:asunto>
         <evo:cuerpo></evo:cuerpo>
         <evo:adjuntos></evo:adjuntos>
-    <evo:mensaje>    
+    </evo:mensaje>    
 
 </correos>
