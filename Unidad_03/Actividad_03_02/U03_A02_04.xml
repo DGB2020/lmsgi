@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <c01:document 
-xmlns:c01="http://www.lmsgi.net/comidas"
->
+xmlns:c01="http://www.lmsgi.net/comidas">
 <alumnos>
 
     <alumno>
