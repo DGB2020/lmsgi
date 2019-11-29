@@ -3,6 +3,7 @@
     <com:menu precio="10" tarjeta="no">
         <com:comida>
         <com:primero>sopa <opcion tipo="sobre">
+        
         <com:segundo>chuleta<opcion tipo="cerdo">
         <postre tipo="huevo">flan<opcion>
         <bebida tamaño="0.5">    agua
