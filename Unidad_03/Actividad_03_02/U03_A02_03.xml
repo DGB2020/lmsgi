@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<
+????:document 
+xmlns:barbacoa="lmsgi.net/pizza1"
+xmlns:hawaiana="lmsgi.net/pizza1"
+xmlns:cuatroquesos="lmsgi.net/pizza1"
+xmlns:margarita="lmsgi.net/pizza1"
+
+>
 <carta>
 
     <pizza>
