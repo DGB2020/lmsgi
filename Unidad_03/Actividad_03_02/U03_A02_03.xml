@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bar:document 
+<!--<bar:document 
 xmlns:bar="lmsgi.net/pizza1"
 xmlns:haw="lmsgi.net/pizza1"
 xmlns:cua="lmsgi.net/pizza1"
 xmlns:mar="lmsgi.net/pizza1">
+-->
 <carta>
     <pizza>
         <nombre>Barbacoa</nombre>
