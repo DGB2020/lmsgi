@@ -8,8 +8,8 @@ xmlns:evo="http://www.lmsgi.net/evolution"
 <correos>
 
     <thu:mensaje>
-        <thu:destinatario></thu:destinatario>
-        <thu:origen></thu:origen>   
+        <thu:destinatario>Fulanito</thu:destinatario>
+        <thu:origen>Menganito</thu:origen>   
         <thu:asunto></thu:asunto>
         <thu:cuerpo></thu:cuerpo>
         <thu:adjuntos></thu:adjuntos>
