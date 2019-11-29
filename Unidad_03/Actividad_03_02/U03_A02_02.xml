@@ -6,7 +6,6 @@ xmlns:evo="http://www.lmsgi.net/evolution"
 
 >
 <correos>
-
     <thu:mensaje>
         <thu:destinatario>Fulanito</thu:destinatario>
         <thu:origen>Menganito</thu:origen>   
@@ -14,7 +13,6 @@ xmlns:evo="http://www.lmsgi.net/evolution"
         <thu:cuerpo></thu:cuerpo>
         <thu:adjuntos></thu:adjuntos>
     </thu:mensaje>
-
     <out:mensaje>
         <out:destinatario></out:destinatario>
         <out:origen></out:origen>   
@@ -22,7 +20,6 @@ xmlns:evo="http://www.lmsgi.net/evolution"
         <out:cuerpo></out:cuerpo>
         <out:adjuntos></out:adjuntos>
     </out:mensaje>
-
     <evo:mensaje>
         <evo:destinatario></evo:destinatario>
         <evo:origen></evo:origen>   
@@ -30,5 +27,4 @@ xmlns:evo="http://www.lmsgi.net/evolution"
         <evo:cuerpo></evo:cuerpo>
         <evo:adjuntos></evo:adjuntos>
     </evo:mensaje>    
-
 </correos>
