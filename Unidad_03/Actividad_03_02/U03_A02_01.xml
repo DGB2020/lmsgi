@@ -8,11 +8,11 @@
         <bebida tamaño="0.5">    agua
 
     </menu>
-    <menu precio=25 tarjeta=si>
+    <menu precio="25" tarjeta="si">
     <comida>
         <primero>entremeses<opcion tipo="ibericos">
         <segundo>chuleton<opcion tipo="ternera">
         <postre>arroz con leche<opcion tipo="casero">
-        <bebida tamaño=1>    rioja
+        <bebida tamaño="1">    rioja
     </menu>
 

@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<com:document 
+xmlns:thu="http://www.lmsgi.net/thunderbird"
+xmlns:out="http://www.lmsgi.net/outlook"
+xmlns:evo="http://www.lmsgi.net/evolution"
+
+>
 <correos>
-    <mensaje>
-        <gestor>Thunderbird, Outlook, Evolution</gestor>
 
+    <thu:mensaje>
+        <thu:destinatario></thu:destinatario>
+        <thu:origen></thu:origen>   
+        <thu:asunto></thu:asunto>
+        <thu:cuerpo></thu:cuerpo>
+        <thu:adjuntos></thu:adjuntos>
+    </thu:mensaje>
 
-    </mensaje>
+    <out:mensaje>
+        <out:destinatario></out:destinatario>
+        <out:origen></out:origen>   
+        <out:asunto></out:asunto>
+        <out:cuerpo></out:cuerpo>
+        <out:adjuntos></out:adjuntos>
+    </out:mensaje>
+
+    <evo:mensaje>
+        <evo:destinatario></evo:destinatario>
+        <evo:origen></evo:origen>   
+        <evo:asunto></evo:asunto>
+        <evo:cuerpo></evo:cuerpo>
+        <evo:adjuntos></evo:adjuntos>
+    <evo:mensaje>    
+
 </correos>
