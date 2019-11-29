@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com:document xmlns:com="http://www.lmsgi.net/comidas">
-<docentes>
-    <profesor>
-        <nombre>Manu</nombre>
-    </profesor>
-    <profesor>
-        <nombre>Luis</nombre>
-    </profesor>
-</docentes>
 
-<cursos>
-    <curso titulo="xml">
-        <alumnos>
-            <nombre></nombre>
-            <nombre></nombre>
-            <nombre></nombre>                        
-        </alumnos>
-    </curso>
-    <curso titulo="xml">
-        <alumnos>
-            <nombre></nombre>
-            <nombre></nombre>
-            <nombre></nombre>                        
-        </alumnos>
-    </curso>    
-</cursos>
+<datosInstituto>
+    <docentes>
+        <profesor>
+            <nombre>Manu</nombre>
+        </profesor>
+        <profesor>
+            <nombre>Luis</nombre>
+        </profesor>
+    </docentes>
+    <cursos>
+        <curso titulo="xml">
+            <alumnos>
+                <nombre></nombre>
+                <nombre></nombre>
+                <nombre></nombre>                        
+            </alumnos>
+        </curso>
+        <curso titulo="xml">
+            <alumnos>
+                <nombre></nombre>
+                <nombre></nombre>
+                <nombre></nombre>                        
+            </alumnos>
+        </curso>    
+    </cursos>
+</datosInstituto>
+
