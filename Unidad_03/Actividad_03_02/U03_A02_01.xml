@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <com:document xmlns:com="http://www.lmsgi.net/comidas">
+<carta>
     <menu precio="10" tarjeta="no">
         <comida>
             <primero>sopa <opcion tipo="sobre"/></primero>
@@ -19,4 +20,4 @@
         <bebida tamaño="1">    rioja
         </bebida>
     </menu>
-
+</carta>
