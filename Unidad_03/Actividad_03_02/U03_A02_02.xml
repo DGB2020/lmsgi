@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mail:document xmlns:mail="http://www.lmsgi.net/mail"
+<!--<mail:document xmlns:mail="http://www.lmsgi.net/mail"
 xmlns:thu="http://www.lmsgi.net/thunderbird"
 xmlns:out="http://www.lmsgi.net/outlook"
-xmlns:evo="http://www.lmsgi.net/evolution">
+xmlns:evo="http://www.lmsgi.net/evolution">-->
 <correos>
     <thu:mensaje>
         <thu:destinatario>Fulanito</thu:destinatario>
