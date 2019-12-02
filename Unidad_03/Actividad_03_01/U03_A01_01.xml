@@ -3,12 +3,12 @@
 <deportistas>
 
     <deportista>
-        <deporte>Atletismo</deporte>
+        <deporte nombre="Atletismo" />
         <nombre>Jesse Owens</nombre>
     </deportista>
 
     <deportista>
-        <deporte>Natación</deporte> 
+        <deporte nombre="Natacion" /> 
         <nombre>Mark Spitz</nombre>
     </deportista>
 
