@@ -24,7 +24,7 @@ xmlns:mar="lmsgi.net/pizza4">
             <ingrediente>Queso</ingrediente>
         </ingredientes>
     </haw:pizza>
-    <pizza>
+    <cua:pizza>
         <cua:pizza nombre="4 Quesos" precio="7">
      
         <ingredientes>
