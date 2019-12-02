@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<cart:carta xmlns:cart="htttp://www.lmsgi.net/carta"
+<carta xmlns:carta="htttp://www.lmsgi.net/carta"
 xmlns:bar="lmsgi.net/pizza1"
 xmlns:haw="lmsgi.net/pizza2"
 xmlns:cua="lmsgi.net/pizza3"
@@ -36,4 +35,4 @@ xmlns:mar="lmsgi.net/pizza4">
             <ingrediente>Orégano</ingrediente>
         </ingredientes>
     </mar:pizza>
-</cart:carta>
+</carta>
