@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<geografiaMundial>
+<geografia_mundial>
 
     <pais>
         <nombre>España</nombre>
@@ -8,4 +8,4 @@
         <capital>Madrid</capital>
     </pais>
 
-</geografiaMundial>
+</geografia_mundial>
