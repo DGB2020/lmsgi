@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<bar:document 
+<bar:document 
 xmlns:bar="lmsgi.net/pizza1"
 xmlns:haw="lmsgi.net/pizza2"
 xmlns:cua="lmsgi.net/pizza3"
 xmlns:mar="lmsgi.net/pizza4">
--->
+
 <carta>
-    <pizza>
-        <nombre>Barbacoa</nombre>
-        <precio>8</precio>
+    <bar:pizza nombre="Barbacoa" precio="8">
         <ingredientes>
             <ingrediente>Salsa Barbacoa</ingrediente>
             <ingrediente>Pollo</ingrediente>
@@ -16,10 +14,8 @@ xmlns:mar="lmsgi.net/pizza4">
             <ingrediente>Jamón</ingrediente>
             <ingrediente>Ternera</ingrediente>
         </ingredientes>
-    </pizza>
-    <pizza>
-        <nombre>Hawaiana</nombre>
-        <precio>7</precio>
+    </bar:pizza>
+    <haw:pizza nombre="Hawaiana" precio="7">
         <ingredientes>
             <ingrediente>Tomate</ingrediente>
             <ingrediente>Mozarella</ingrediente>
@@ -27,16 +23,16 @@ xmlns:mar="lmsgi.net/pizza4">
             <ingrediente>Piña</ingrediente>
             <ingrediente>Queso</ingrediente>
         </ingredientes>
-    </pizza>
+    </haw:pizza>
     <pizza>
-        <nombre>4 Quesos</nombre>
-        <precio>7</precio>
+        <cua:pizza nombre="4 Quesos" precio="7">
+     
         <ingredientes>
             <ingrediente>Tomate</ingrediente>
             <ingrediente>Mezcla de 4 quesos</ingrediente>
         </ingredientes>
-    </pizza>
-    <pizza>
+    </cua:pizza>
+    <mar:pizza nombre="Margarita" precio="6">   
         <nombre>Margarita</nombre>
         <precio>6</precio>
         <ingredientes>
@@ -44,5 +40,5 @@ xmlns:mar="lmsgi.net/pizza4">
             <ingrediente>Mozarella</ingrediente>
             <ingrediente>Orégano</ingrediente>
         </ingredientes>
-    </pizza>
+    </mar:pizza>
 </carta>
