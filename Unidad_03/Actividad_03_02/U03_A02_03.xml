@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<carta:document xmlns:carta="lmsgi.net/carta"
+<cart:document xmlns:cart="lmsgi.net/carta"
 xmlns:bar="lmsgi.net/pizza1"
 xmlns:haw="lmsgi.net/pizza2"
 xmlns:cua="lmsgi.net/pizza3"
 xmlns:mar="lmsgi.net/pizza4">
 
-<carta>
+<cart:carta>
     <bar:pizza nombre="Barbacoa" precio="8">
         <ingredientes>
             <ingrediente>Salsa Barbacoa</ingrediente>
@@ -37,4 +37,4 @@ xmlns:mar="lmsgi.net/pizza4">
             <ingrediente>Orégano</ingrediente>
         </ingredientes>
     </mar:pizza>
-</carta>
+</cart:carta>
