@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mundiales-de-futbol>
-    <mundial pais="España" fecha="1982" />
+    <mundial fecha="1982" >
+        <pais>España</pais>
+    </mundial>
 </mundiales-de-futbol>
+
