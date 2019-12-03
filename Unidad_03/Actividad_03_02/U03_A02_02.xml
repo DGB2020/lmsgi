@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<correos xmlns="http://www.lmsgi.net/mail"
+<correos xmlns="http://www.lmsgi.net/correos"
 xmlns:thu="http://www.lmsgi.net/thunderbird"
 xmlns:out="http://www.lmsgi.net/outlook"
 xmlns:evo="http://www.lmsgi.net/evolution">
-    <thu:mensaje>
-        <thu:destinatario>Fulanito</thu:destinatario>
-        <thu:origen>Menganito</thu:origen>   
-        <thu:asunto></thu:asunto>
-        <thu:cuerpo></thu:cuerpo>
-        <thu:adjuntos></thu:adjuntos>
-    </thu:mensaje>
-    <out:mensaje>
-        <out:destinatario></out:destinatario>
-        <out:origen></out:origen>   
-        <out:asunto></out:asunto>
-        <out:cuerpo></out:cuerpo>
-        <out:adjuntos></out:adjuntos>
+    <thu:mensajes gestor="thunderbird">
+        <thu:mensaje>
+            <thu:destinatario>Fulanito</thu:destinatario>
+            <thu:origen>Menganito</thu:origen>   
+            <thu:asunto>Cosas urgentes</thu:asunto>
+            <thu:cuerpo>Debemos actuar pronto</thu:cuerpo>
+        </thu:mensaje>
+    </thu:mensajes>
+    <out:mensajes gestor="outlook">
+        <out:mensaje>
+            <out:destinatario>Menganito</out:destinatario>
+            <out:origen>Fulanito</out:origen>   
+            <out:asunto>Re: cosas urgentes</out:asunto>
+            <out:cuerpo>Paso</out:cuerpo>
+            <out:adjunto>trollface.gif</out:adjunto>
     </out:mensaje>
-    <evo:mensaje>
-        <evo:destinatario></evo:destinatario>
-        <evo:origen></evo:origen>   
-        <evo:asunto></evo:asunto>
-        <evo:cuerpo></evo:cuerpo>
-        <evo:adjuntos></evo:adjuntos>
-    </evo:mensaje>    
+    </out:mensajes>
+    <evo:mensajes>
+        <evo:mensaje gestor="evolution">
+            <evo:destinatario>Fulanito</evo:destinatario>
+            <evo:origen>Menganito</evo:origen>   
+            <evo:asunto>Siempre igual</evo:asunto>
+            <evo:cuerpo>No puedo contar contigo para nada</evo:cuerpo>
+            <evo:adjunto>screwyou.wav</evo:adjunto>
+            <evo:adjunto>screwyou.gif</evo:adjunto>
+        </evo:mensaje> 
+    </evo:mensajes>
+   
 </correos>
