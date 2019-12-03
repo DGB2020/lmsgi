@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<carta xmlns:com="http://www.lmsgi.net/comidas" >
-    <menu precio="10" tarjeta="no">
-        <comida>
+<carta xmlns="http://www.lmsgi.net/carta"
+xmlns:com="http://www.lmsgi.net/comidas" 
+xmlns:cen="http://www.lmsgi.net/cena">
+    <com:menu precio="10" tarjeta="no">
+        <com:comida>
             <primero>sopa <opcion tipo="sobre"/></primero>
             <segundo>chuleta<opcion tipo="cerdo"/></segundo>
             <postre >flan<opcion tipo="huevo"/></postre>
-        </comida>
-        <bebida tamaño="0.5">    agua
-        </bebida>
-    </menu>
-    <menu precio="25" tarjeta="si">
-        <comida>
-            <primero>entremeses<opcion tipo="ibericos"/></primero>
-            <segundo>chuleton<opcion tipo="ternera"/></segundo>
-            <postre>arroz con leche<opcion tipo="casero"/></postre>
-        </comida>
-        <bebida tamaño="1">    rioja
-        </bebida>
-    </menu>
+        </com:comida>
+        <com:bebida tamaño="0.5">agua
+        </com:bebida>
+    </com:menu>
+    <com:menu precio="25" tarjeta="si">
+        <com:comida>
+            <com:primero>entremeses<opcion tipo="ibericos"/></com:primero>
+            <com:segundo>chuleton<opcion tipo="ternera"/></com:segundo>
+            <com:postre>arroz con leche<opcion tipo="casero"/></com:postre>
+        </com:comida>
+        <com:bebida tamaño="1">rioja
+        </com:bebida>
+    </com:menu>
+    <cen:menu precio="35" tarjeta="si">
+        <cen:comida>
+            <cen:primero>entremeses<opcion tipo="ibericos"/></cen:primero>
+            <cen:segundo>chuleton<opcion tipo="cerdo"/></cen:segundo>
+            <cen:postre>arroz con leche<opcion tipo="industrial"/></cen:postre>
+        </cen:comida>
+        <cen:bebida tamaño="1">cava
+        </cen:bebida>
+    </cen:menu>
+
+
+
 </carta>
