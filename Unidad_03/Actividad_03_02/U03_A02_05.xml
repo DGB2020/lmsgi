@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<datosInstituto
-xmlns="htttp://www.lmsgi.net/datosInstituto"
+<datosInstituto xmlns="htttp://www.lmsgi.net/datosInstituto"
 xmlns:alu="htttp://www.lmsgi.net/alumnos"
 >
-    <docentes>
-        <profesor>
-            <nombre>Manu</nombre>
-        </profesor>
-        <profesor>
-            <nombre>Luis</nombre>
-        </profesor>
-    </docentes>
     <cursos>
         <curso titulo="xml">
-            <alumnos>
-                <nombre>Jorgito</nombre>
-                <nombre>Juanito</nombre>
-                <nombre>Jaimito</nombre>                        
-            </alumnos>
+            <profesor>
+                <nombre>Manu</nombre>
+            </profesor>
+            <alu:alumnos>
+                <alu:nombre>Jorgito</alu:nombre>
+                <alu:nombre>Juanito</alu:nombre>
+                <alu:nombre>Jaimito</alu:nombre>                        
+            </alu:alumnos>
         </curso>
         <curso titulo="php">
-            <alumnos>
-                <nombre>Maria</nombre>
-                <nombre>Luisa</nombre>
-                <nombre>Marta</nombre>                        
-            </alumnos>
+            <profesor>
+                <nombre>Luis</nombre>
+            </profesor>
+            <alu:alumnos>
+                <alu:nombre>Maria</alu:nombre>
+                <alu:nombre>Luisa</alu:nombre>
+                <alu:nombre>Marta</alu:nombre>                        
+            </alu:alumnos>
         </curso>    
     </cursos>
 </datosInstituto>
