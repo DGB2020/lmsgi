@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<carta>
+<carta xmlns:com="http://www.lmsgi.net/comidas" >
     <menu precio="10" tarjeta="no">
         <comida>
             <primero>sopa <opcion tipo="sobre"/></primero>
