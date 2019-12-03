@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<datosInstituto>
+<datosInstituto
+xmlns="htttp://www.lmsgi.net/datosInstituto"
+xmlns:alu="htttp://www.lmsgi.net/alumnos"
+>
     <docentes>
         <profesor>
             <nombre>Manu</nombre>
@@ -11,16 +14,16 @@
     <cursos>
         <curso titulo="xml">
             <alumnos>
-                <nombre></nombre>
-                <nombre></nombre>
-                <nombre></nombre>                        
+                <nombre>Jorgito</nombre>
+                <nombre>Juanito</nombre>
+                <nombre>Jaimito</nombre>                        
             </alumnos>
         </curso>
-        <curso titulo="xml">
+        <curso titulo="php">
             <alumnos>
-                <nombre></nombre>
-                <nombre></nombre>
-                <nombre></nombre>                        
+                <nombre>Maria</nombre>
+                <nombre>Luisa</nombre>
+                <nombre>Marta</nombre>                        
             </alumnos>
         </curso>    
     </cursos>
