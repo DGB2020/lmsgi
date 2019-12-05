@@ -3,31 +3,43 @@
 xmlns:thu="http://www.lmsgi.net/thunderbird"
 xmlns:out="http://www.lmsgi.net/outlook"
 xmlns:evo="http://www.lmsgi.net/evolution">
-    <thu:mensajes >
-        <thu:mensaje gestor="thunderbird">
-            <thu:destinatario>Fulanito</thu:destinatario>
-            <thu:origen>Menganito</thu:origen>   
-            <thu:asunto>Cosas urgentes</thu:asunto>
-            <thu:cuerpo>Debemos actuar pronto</thu:cuerpo>
-        </thu:mensaje>
-    </thu:mensajes>
-    <out:mensajes >
-        <out:mensaje gestor="outlook">
-            <out:destinatario>Menganito</out:destinatario>
-            <out:origen>Fulanito</out:origen>   
-            <out:asunto>Re: cosas urgentes</out:asunto>
-            <out:cuerpo>Paso</out:cuerpo>
-            <out:adjunto>trollface.gif</out:adjunto>
-    </out:mensaje>
-    </out:mensajes>
-    <evo:mensajes>
-        <evo:mensaje gestor="evolution">
-            <evo:destinatario>Fulanito</evo:destinatario>
-            <evo:origen>Menganito</evo:origen>   
-            <evo:asunto>Siempre igual</evo:asunto>
-            <evo:cuerpo>No puedo contar contigo para nada</evo:cuerpo>
-            <evo:adjunto>screwyou.wav</evo:adjunto>
-            <evo:adjunto>screwyou.gif</evo:adjunto>
-        </evo:mensaje> 
-    </evo:mensajes>
+    <thu:registros >
+        <thu:registro>
+            <thu:gestor>thunderbird</thu:gestor>
+            <thu:mensaje >
+                <thu:destinatario>Fulanito</thu:destinatario>
+                <thu:origen>Menganito</thu:origen>   
+                <thu:asunto>Cosas urgentes</thu:asunto>
+                <thu:cuerpo>Debemos actuar pronto</thu:cuerpo>
+            </thu:mensaje>
+        </thu:registro>
+    </thu:registros>
+
+    <out:bloque >
+        <out:registro>
+            <out:gestor>Outlook</out:gestor>
+            <out:mensaje >
+                <out:destinatario>Menganito</out:destinatario>
+                <out:origen>Fulanito</out:origen>   
+                <out:asunto>Re: cosas urgentes</out:asunto>
+                <out:cuerpo>Paso</out:cuerpo>
+                <out:adjunto>trollface.gif</out:adjunto>
+            </out:mensaje>
+        </out:registro>
+    </out:bloque>
+
+    <evo:bloque>
+        <evo:registros>
+            <evo:gestor>Evolution</evo:gestor>
+            <evo:mensaje >
+                <evo:gestor></evo:gestor>
+                <evo:destinatario>Fulanito</evo:destinatario>
+                <evo:origen>Menganito</evo:origen>   
+                <evo:asunto>Siempre igual</evo:asunto>
+                <evo:cuerpo>No puedo contar contigo para nada</evo:cuerpo>
+                <evo:adjunto>screwyou.wav</evo:adjunto>
+                <evo:adjunto>screwyou.gif</evo:adjunto>
+            </evo:mensaje> 
+        </evo:registros>
+    </evo:bloque>
 </mail>
