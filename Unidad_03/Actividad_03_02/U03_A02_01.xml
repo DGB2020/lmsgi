@@ -19,7 +19,7 @@ xmlns:cen="http://www.lmsgi.net/cena">
         </com:comida>
         <com:bebida>
             agua
-            <opcion tamano="0.5">
+            <opcion tamano="0.5"/>
         </com:bebida>
     </com:menu>
     <com:menu precio="25" tarjeta="si">
@@ -39,7 +39,7 @@ xmlns:cen="http://www.lmsgi.net/cena">
         </com:comida>
         <com:bebida>
             rioja
-            <opcion tamano="1">
+            <opcion tamano="1"/>
         </com:bebida>
     </com:menu>
     <cen:menu precio="35" tarjeta="si">
@@ -59,7 +59,7 @@ xmlns:cen="http://www.lmsgi.net/cena">
         </cen:comida>
         <cen:bebida>
             cava
-            <opcion tamano="1">
+            <opcion tamano="1"/>
         </cen:bebida>
     </cen:menu>
 </carta>
