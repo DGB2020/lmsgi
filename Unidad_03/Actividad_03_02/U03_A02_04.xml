@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alumnos xmlns="htttp://www.lmsgi.net/alumnos"
-xmlns:gij1="htttp://www.lmsgi.net/ies_numero1"
-xmlns:gij2="htttp://www.lmsgi.net/cifp_sectores"
-xmlns:avi="htttp://www.lmsgi.net/cifp_aviles"
-xmlns:ovi="htttp://www.lmsgi.net/iesdoctor_fleming"
+xmlns:gij1="http://www.lmsgi.net/ies_numero1"
+xmlns:gij2="http://www.lmsgi.net/cifp_sectores"
+xmlns:avi="http://www.lmsgi.net/cifp_aviles"
+xmlns:ovi="http://www.lmsgi.net/iesdoctor_fleming"
 xmlns:mie="http://www.lmsgi.net/ibq"
 >
     <gij1:alumno>
