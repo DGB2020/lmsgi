@@ -3,16 +3,16 @@
 xmlns:thu="http://www.lmsgi.net/thunderbird"
 xmlns:out="http://www.lmsgi.net/outlook"
 xmlns:evo="http://www.lmsgi.net/evolution">
-    <thu:mensajes gestor="thunderbird">
-        <thu:mensaje>
+    <thu:mensajes >
+        <thu:mensaje gestor="thunderbird">
             <thu:destinatario>Fulanito</thu:destinatario>
             <thu:origen>Menganito</thu:origen>   
             <thu:asunto>Cosas urgentes</thu:asunto>
             <thu:cuerpo>Debemos actuar pronto</thu:cuerpo>
         </thu:mensaje>
     </thu:mensajes>
-    <out:mensajes gestor="outlook">
-        <out:mensaje>
+    <out:mensajes >
+        <out:mensaje gestor="outlook">
             <out:destinatario>Menganito</out:destinatario>
             <out:origen>Fulanito</out:origen>   
             <out:asunto>Re: cosas urgentes</out:asunto>
