@@ -5,34 +5,26 @@ xmlns:haw="lmsgi.net/pizza2"
 xmlns:cua="lmsgi.net/pizza3"
 xmlns:mar="lmsgi.net/pizza4">
     <bar:pizza nombre="Barbacoa" precio="8">
-        <ingredientes>
-            <ingrediente>Salsa Barbacoa</ingrediente>
-            <ingrediente>Pollo</ingrediente>
-            <ingrediente>Bacon</ingrediente>
-            <ingrediente>Jamón</ingrediente>
-            <ingrediente>Ternera</ingrediente>
-        </ingredientes>
+        <ingrediente>Salsa Barbacoa</ingrediente>
+        <ingrediente>Pollo</ingrediente>
+        <ingrediente>Bacon</ingrediente>
+        <ingrediente>Jamón</ingrediente>
+        <ingrediente>Ternera</ingrediente>
     </bar:pizza>
     <haw:pizza nombre="Hawaiana" precio="7">
-        <ingredientes>
-            <ingrediente>Tomate</ingrediente>
-            <ingrediente>Mozarella</ingrediente>
-            <ingrediente>Jamón</ingrediente>
-            <ingrediente>Piña</ingrediente>
-            <ingrediente>Queso</ingrediente>
-        </ingredientes>
+        <ingrediente>Tomate</ingrediente>
+        <ingrediente>Mozarella</ingrediente>
+        <ingrediente>Jamón</ingrediente>
+        <ingrediente>Piña</ingrediente>
+        <ingrediente>Queso</ingrediente>
     </haw:pizza>
     <cua:pizza nombre="4 Quesos" precio="7">
-        <ingredientes>
-            <ingrediente>Tomate</ingrediente>
-            <ingrediente>Mezcla de 4 quesos</ingrediente>
-        </ingredientes>
+        <ingrediente>Tomate</ingrediente>
+        <ingrediente>Mezcla de 4 quesos</ingrediente>
     </cua:pizza>
     <mar:pizza nombre="Margarita" precio="6">   
-        <ingredientes>
-            <ingrediente>Tomate</ingrediente>
-            <ingrediente>Mozarella</ingrediente>
-            <ingrediente>Orégano</ingrediente>
-        </ingredientes>
+        <ingrediente>Tomate</ingrediente>
+        <ingrediente>Mozarella</ingrediente>
+        <ingrediente>Orégano</ingrediente>
     </mar:pizza>
 </carta>
