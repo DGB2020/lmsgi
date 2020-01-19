@@ -8,16 +8,46 @@
 ]>
 
 <agenda>
-<contacto>
-<nombre>Ayuntamiento</nombre>
-<telefonoFijo>010</telefonoFijo>
-</contacto>
-<contacto>
-<nombre>Emergencias</nombre>
-<telefonoFijo>112 (Unión Europea)</telefonoFijo>
-<telefonoMovil>Desconocido</telefonoMovil>
-<telefonoFijo>911 (Estados Unidos)</telefonoFijo>
-</contacto>
+    <contacto>
+    <nombre>Ayuntamiento</nombre>
+    <telefonoFijo>010</telefonoFijo>
+    </contacto>
+    <contacto>
+    <nombre>Emergencias</nombre>
+    <telefonoFijo>112 (Unión Europea)</telefonoFijo>
+    <telefonoMovil>Desconocido</telefonoMovil>
+    <telefonoFijo>911 (Estados Unidos)</telefonoFijo>
+    </contacto>
 </agenda>
 
 
+ <agenda>
+        <contacto>
+            <nombre>
+                Ayuntamiento
+            </nombre>
+            <telefonoFijo>
+                010
+            </telefonoFijo>
+            <telefonoFijo>
+                020
+            </telefonoFijo>
+            <telefonoMovil>
+                333
+            </telefonoMovil>
+        </contacto>
+        <contacto>
+            <nombre>
+                Emergencias
+            </nombre>
+            <telefonoFijo>
+                112 (Unión Europea)
+            </telefonoFijo>
+            <telefonoFijo>
+                911 (Estados Unidos)
+            </telefonoFijo>
+            <telefonoMovil>
+                Desconocido
+            </telefonoMovil>
+        </contacto>
+    </agenda>

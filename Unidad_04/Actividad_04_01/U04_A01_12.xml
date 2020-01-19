@@ -16,4 +16,16 @@
 </aeropuerto>
 </aeropuertos>
 
-
+<aeropuertos>
+        <aeropuerto>
+            <nombre>
+                Berlín Schönefeld (SFX)
+            </nombre>
+        </aeropuerto>
+        <aeropuerto>
+            <nombre>
+                Berlín Tempelhof (THF)
+            </nombre>
+            <cerrado />
+        </aeropuerto>
+    </aeropuertos>

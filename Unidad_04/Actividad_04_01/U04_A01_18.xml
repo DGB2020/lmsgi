@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mensajes [
-<!ELEMENT mensajes (mensaje)>
+<!ELEMENT mensajes (mensaje*)>
+<!ELEMENT mensaje (de, para, hora, texto)>
 <!ELEMENT de (#PCDATA)>
 <!ELEMENT para (#PCDATA)>
 <!ELEMENT hora (#PCDATA)>
@@ -22,8 +23,6 @@
 <texto>Aquí, aprendiendo <strong>XML</strong></texto>
 </mensaje>
 </mensajes>
-
-
 
 
 

@@ -5,6 +5,6 @@
 ]>
 
 <animales>
-    <perro>Caniche</perro>
-    <gato>Siamés</gato>
+        <animal>Caniche</animal>
+        <animal>Siamés</animal>
 </animales>
