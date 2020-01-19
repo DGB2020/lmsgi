@@ -6,18 +6,18 @@
 <!ELEMENT concepto (#PCDATA)>
 ]>
 <contabilidad>
-<apunte>
-<ingreso />
-<fecha>24 de febrero de 2019</fecha>
-<cantidad>1800,00 €</cantidad>
-<concepto>Salario</concepto>
-</apunte>
-<apunte>
-<gasto />
-<fecha>28 de febrero de 2019</fecha>
-<cantidad>74,25 €</cantidad>
-<concepto>Recibo luz</concepto>
-</apunte>
+    <apunte>
+        <ingreso />
+        <fecha>24 de febrero de 2019</fecha>
+        <cantidad>1800,00 €</cantidad>
+        <concepto>Salario</concepto>
+    </apunte>
+    <apunte>
+        <gasto />
+        <fecha>28 de febrero de 2019</fecha>
+        <cantidad>74,25 €</cantidad>
+        <concepto>Recibo luz</concepto>
+    </apunte>
 </contabilidad>
 
 
