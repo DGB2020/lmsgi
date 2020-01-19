@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE agenda [
-<!ELEMENT agenda (contacto*)>
-<!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)>
+<!DOCTYPE favoritos [
+<!ELEMENT favoritos (marcador)>
+<!ELEMENT marcador (nombre, uri)>
 <!ELEMENT nombre (#PCDATA)>
-<!ELEMENT telefonoFijo (#PCDATA)>
-<!ELEMENT telefonoMovil (#PCDATA)>
+<!ELEMENT uri (#PCDATA)>
 ]>
 
-<agenda>
-<contacto>
-<nombre>Ayuntamiento</nombre>
-<telefonoFijo>010</telefonoFijo>
-</contacto>
-<contacto>
-<nombre>Emergencias</nombre>
-<telefonoFijo>112 (Unión Europea)</telefonoFijo>
-<telefonoMovil>Desconocido</telefonoMovil>
-<telefonoFijo>911 (Estados Unidos)</telefonoFijo>
-</contacto>
-</agenda>
+<marcadores>
+<marcador>
+<nombre>W3C</nombre>
+<uri>http://www.w3.org/</uri>
+</marcador>
+<marcador>
+<nombre>Web Hypertext Application Technology Working Group (WHATWG)</nombre>
+<uri>http://www.whatwg.org/</uri>
+</marcador>
+</marcadores>
+
 
 

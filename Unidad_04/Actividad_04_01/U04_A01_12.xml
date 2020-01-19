@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE agenda [
-<!ELEMENT agenda (contacto*)>
-<!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)>
+<!DOCTYPE aeropuertos [
+<!ELEMENT aeropuertos (aeropuerto*)>
+<!ELEMENT aeropuerto (nombre, cerrado)>
 <!ELEMENT nombre (#PCDATA)>
-<!ELEMENT telefonoFijo (#PCDATA)>
-<!ELEMENT telefonoMovil (#PCDATA)>
+<!ELEMENT cerrado (#PCDATA)>
 ]>
 
-<agenda>
-<contacto>
-<nombre>Ayuntamiento</nombre>
-<telefonoFijo>010</telefonoFijo>
-</contacto>
-<contacto>
-<nombre>Emergencias</nombre>
-<telefonoFijo>112 (Unión Europea)</telefonoFijo>
-<telefonoMovil>Desconocido</telefonoMovil>
-<telefonoFijo>911 (Estados Unidos)</telefonoFijo>
-</contacto>
-</agenda>
+<aeropuertos>
+<aeropuerto>
+<nombre>Berlín Schönefeld (SFX)</nombre>
+</aeropuerto>
+<aeropuerto>
+<nombre>Berlín Tempelhof (THF)</nombre>
+<cerrado />
+</aeropuerto>
+</aeropuertos>
 
 
