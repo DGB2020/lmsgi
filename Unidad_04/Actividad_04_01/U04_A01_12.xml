@@ -5,7 +5,6 @@
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT cerrado (EMPTY)>
 <!ELEMENT abierto (EMPTY)>
-
 ]>
 
 <aeropuertos>
