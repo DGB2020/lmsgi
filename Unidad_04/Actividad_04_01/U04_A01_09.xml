@@ -15,21 +15,5 @@
     <asteroide>Ceres</asteroide>
 </sistemaSolar>
 
- <sistemaSolar>
-        <cuerpo>
-            <planeta>
-                Tierra
-            </planeta>
-        </cuerpo>
-        <cuerpo>
-            <satelite>
-                Luna
-            </satelite> 
-        </cuerpo>
-        <cuerpo>
-            <asteroide>
-                Ceres
-            </asteroide>
-        </cuerpo>
-</sistemaSolar>
+
 
