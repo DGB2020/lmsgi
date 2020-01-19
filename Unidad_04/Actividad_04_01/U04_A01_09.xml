@@ -10,9 +10,18 @@
 <sistemaSolar>
     <cuerpo>
     <planeta>Tierra</planeta>
+
+
+    </cuerpo>
+
+    <cuerpo>
+        <asteroide>Ceres</asteroide>
+    </cuerpo>
+
+        <cuerpo>
     <satelite>Luna</satelite>
     </cuerpo>
-    <asteroide>Ceres</asteroide>
+
 </sistemaSolar>
 
 
