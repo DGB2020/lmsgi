@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE resoluciones [
 <!ELEMENT resoluciones (resolucion*)>
-<!ATTLIST resoluciones 
-    nombre CDATA #REQUIRED
-    alto CDATA #REQUIRED
-    ancho CDATA #REQUIRED>
+    <!ELEMENT resolucion EMPTY>
+        <!ATTLIST resolucion 
+            nombre CDATA #REQUIRED
+            alto CDATA #REQUIRED
+            ancho CDATA #REQUIRED>
 ]>
 
 <resoluciones>
