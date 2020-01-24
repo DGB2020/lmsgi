@@ -3,7 +3,7 @@
 <!ELEMENT inventores (inventor*)>
     <!ELEMENT inventor EMPTY>
         <!ATTLIST inventor
-            nombre CDATA
+            nombre CDATA #IMPLIED
             invento CDATA #REQUIRED>
 ]>
 
