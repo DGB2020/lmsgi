@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-Nottingham Presa: 0 - Inter de Mitente: 1
-Vodka Juniors: 3 - Sparta da Risa: 3
-Water de Munich: 4 - Esteaua es del grifo: 2
+<!DOCTYPE resultados [
+<!ELEMENT resultados (resultado*)>
+    <!ELEMENT resultado EMPTY>
+        <!ATTLIST resultado
+            equipoLocal CDATA #REQUIRED
+            equipoVisitante CDATA #REQUIRED
+            golesLoc CDATA #REQUIRED
+            golesVis CDATA #REQUIRED>       
+]>
+
+<resultados>
+    <resultado equipoLocal="Nottingham Presa" equipoVisitante="Inter de Mitente" golesLoc="0" golesVis="1"/>
+    <resultado equipoLocal="Vodka Juniors" equipoVisitante="Sparta da Risa" golesLoc="3" golesVis="3"/>
+    <resultado equipoLocal="Water de Munich" equipoVisitante="Esteaua es del grifo" golesLoc="4" golesVis="2"/>
+</resultados>
+
 

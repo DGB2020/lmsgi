@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE inventores [
-<!ELEMENT inventores>
+<!ELEMENT inventores (inventor*)>
     <!ELEMENT inventor EMPTY>
         <!ATTLIST inventor
             nombre CDATA
