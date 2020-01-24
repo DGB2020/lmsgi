@@ -3,7 +3,7 @@
 <!ELEMENT resoluciones (resolucion*)>
     <!ELEMENT resolucion EMPTY>
         <!ATTLIST resolucion 
-            nombre CDATA #REQUIRED
+            nombre NMTOKENS #REQUIRED
             alto CDATA #REQUIRED
             ancho CDATA #REQUIRED>
 ]>

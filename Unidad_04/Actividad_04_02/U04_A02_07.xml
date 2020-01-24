@@ -2,7 +2,7 @@
 <!DOCTYPE libro [
 <!ELEMENT libro EMPTY>
     <!ATTLIST libro 
-        autor CDATA #REQUIRED>
+        autor NMTOKENS #REQUIRED>
 ]>
 
 <libro autor="Mario Vargas Llosa" />
