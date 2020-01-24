@@ -11,19 +11,19 @@
 <resultados>
     <resultado>
         <equipoLocal>Nottingham Presa</equipoLocal>
-        <golesLocal>0</equipoLocal>
+        <golesLocal>0</golesLocal>
         <equipoVisitante>Inter de Mitente</equipoVisitante>
         <golesVisitante>1</golesVisitante>
     </resultado>
     <resultado>
         <equipoLocal>Vodka Juniors</equipoLocal>
-        <golesLocal>3</equipoLocal>
+        <golesLocal>3</golesLocal>
         <equipoVisitante>Sparta da Risa</equipoVisitante>
         <golesVisitante>3</golesVisitante>
     </resultado>
     <resultado>
         <equipoLocal>Water de Munich</equipoLocal>
-        <golesLocal>4</equipoLocal>
+        <golesLocal>4</golesLocal>
         <equipoVisitante>Esteaua es del grifo</equipoVisitante>
         <golesVisitante>2</golesVisitante>
     </resultado>

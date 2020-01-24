@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE resultados [
 <!ELEMENT resultados (resultado*)>
-    <!ELEMENT resultado (equipoLocal, golesLocal, equipoVisitante, golesVisitante)>
+    <!ELEMENT resultado (equipoLocal, equipoVisitante)>
     <!ELEMENT equipoLocal (#PCDATA)>
         <!ATTLIST equipoLocal golesLoc CDATA #REQUIRED>
     <!ELEMENT equipoVisitante (#PCDATA)>
