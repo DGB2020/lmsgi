@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+  <persona id="c1">
+    <nombre>Ricardo Borriquero</nombre>
+    <tlf>951345678</tlf>
+ </persona>
+ <persona id="c2">
+    <nombre>Eva Risto</nombre>
+    <tlf>955837659</tlf>
+ </persona>
+</agenda>
