@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<agenda>
+<agenda
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemalocation="U04_A03_03.xsd"
+>
   <persona id="c1">
     <nombre>Ricardo Borriquero</nombre>
     <tlf>951345678</tlf>
