@@ -4,8 +4,8 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
   <xs:element name="agenda">
     <xs:complexType>
-      <xs:element name="persona">
-        <xs:attribute name="id" type="" />        
+      <xs:element name="persona" maxOccurs="unbounded">
+        <xs:attribute name="id" type="xs:id"/>                
         <xs:complexType>
           <xs:sequence>
             <xs:element name="nombre" type="xs:string"/>

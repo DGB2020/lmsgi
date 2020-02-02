@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+>
+  <xs:element name="lista_de_personasda">
+    <xs:complexType>
+      <xs:element name="persona" maxOccurs="unbounded">
+        <xs:attribute name="id" type="xs:id"/>                
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="tlf" type="number"/>           
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+  </xs:element>
+</xs:schema> 
