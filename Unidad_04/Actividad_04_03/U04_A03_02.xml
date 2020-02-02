@@ -1,1 +1,0 @@
-<!ELEMENT receta (titulo, ingrediente+, procedimiento+, tiempo?)>

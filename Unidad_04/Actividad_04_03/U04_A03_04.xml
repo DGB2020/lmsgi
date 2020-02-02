@@ -1,26 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<lista_de_personas>
-<persona nacionalidad="español">
-<nombre>José García</nombre>
-
-<fechanacimiento>1984-04-25</fechanacimiento>
-
-<telefono>670201256</telefono>
-<telefono>876567210</telefono>
-
-<sexo>Varón</sexo>
-
-</persona>
-<persona nacionalidad="español">
-
-<nombre>Juan Antonio</nombre>
-
-<fechanacimiento>1984-04-25</fechanacimiento>
-<telefono>670201256</telefono>
-
-<numeroseguridadsocial>2569587412569</numeroseguridadsocial>
-
-</persona>
-
-</lista_de_personas>
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:element name="etiqueta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="calle" type="xs:string"/>
+        <xs:element name="pais" type="xs:string"/>
+        <xs:element name="codigo" type="xs:number"/>
+        <xs:element name="nombre" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema> 
