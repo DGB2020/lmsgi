@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pedido fecha="1999-10-21">
+      <Destino>
+          <Nombre>Alicia Abad</Nombre>
+          <Direccion>Plaza de la Duquesa 12,</Direccion>
+          <Ciudad>Albacete</Ciudad>
+          <CodPostal>05020</CodPostal>
+      </Destino>
+      <Ordenante>
+          <Nombre>Roberto Movilla,</Nombre>
+          <Direccion>General Ricardos 56,</Direccion>
+          <Ciudad>Madrid</Ciudad>
+          <CodPostal>28055</CodPostal>
+      </Ordenante>
+      <Observaciones>Cortadora cesped ¿electrica?</Observaciones>
+      <Contenido>
+          <Producto codigo="872-AA">
+              <descripcion>Cortadora de cesped</descripcion>
+              <precio>148.95</precio>
+	            <cantidad>1</cantidad>
+          </Producto>
+          <Producto codigo="926-FH">
+              <descripcion>Podadora setos</descripcion>
+              <precio>7.98</precio>
+	            <cantidad>3</cantidad>
+           </Producto>
+          
+      </Contenido>
+</Pedido>

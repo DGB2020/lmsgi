@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cd titulo="Primer Disco">
+<songs>
+<cancion duracion="4:15" anio="2007">
+    <titulo>Candy Shop</titulo>
+    <compositores>
+      <compositor>
+        <nombres>Madonna Louise Veronica</nombres>
+        <apellidos>Ciccone</apellidos>
+      </compositor>
+      <compositor>
+        <nombres>Pharrell</nombres>
+        <apellidos>Williams</apellidos>
+      </compositor>
+    </compositores>
+    <productores>
+      <productor>
+        <nombres>Madonna Louise Veronica</nombres>
+        <apellidos>Ciccone</apellidos>
+      </productor>
+      <productor>
+        <nombres>The_Neptunes</nombres>
+      </productor>
+    </productores>
+    <sello>Warner Bros Records</sello>
+    <artista>Madonna</artista>
+</cancion>
+<cancion duracion="4:47" anio="2007">
+    <titulo>4 Minutes</titulo>
+    <compositores>
+      <compositor>
+        <nombres>Madonna Louise Veronica</nombres>
+        <apellidos>Ciccone</apellidos>
+      </compositor>
+      <compositor>
+        <nombres>Tim</nombres>
+        <apellidos>Mosley</apellidos>
+      </compositor>
+      <compositor>
+        <nombres>Justin</nombres>
+<apellidos>Timberlake</apellidos>
+      </compositor>
+      <compositor>
+        <nombres>Nathaniel</nombres>
+        <apellidos>Hills</apellidos>
+      </compositor>
+    </compositores>
+    <productores>
+      <productor>
+        <nombres>Timbaland</nombres>
+      </productor>
+      <productor>
+        <nombres>Justin</nombres>
+        <apellidos>Timberlake</apellidos>
+      </productor>
+      <productor>
+        <nombres>Danja</nombres>
+      </productor>
+    </productores>
+    <sello>Warner Bros Records</sello>
+    <artista>Madonna</artista>
+</cancion>
+<cancion duracion="4:47" anio="2008">
+    <titulo>Give it 2 me</titulo>
+    <compositores>
+      <compositor>
+        <nombres>Madonna Louise Veronica</nombres>
+        <apellidos>Ciccone</apellidos>
+      </compositor>
+      <compositor>
+        <nombres>Pharrell</nombres>
+        <apellidos>Williams</apellidos>
+      </compositor>
+    </compositores>
+    <productores>
+      <productor>
+        <nombres>Madonna Louise Veronica</nombres>
+        <apellidos>Ciccone</apellidos>
+      </productor>
+      <productor>
+        <nombres>The_Neptunes</nombres>
+      </productor>
+    </productores>
+    <sello>Warner Bros Records</sello>
+    <artista>Madonna</artista>
+</cancion>
+</songs>
+<fecha dia="28" mes="4" anio="2008"/>
+</cd>
