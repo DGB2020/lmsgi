@@ -1,1 +1,13 @@
 <!ELEMENT receta (titulo, ingrediente+, procedimiento+, tiempo?)>
+<?xml version="1.0" encoding="UTF-8" ?>
+<receta 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemalocation="U04_A03_02.xsd"
+>
+    <titulo>Patatas Bravas Cutres</titulo>
+    <ingrediente>Patata</ingrediente>
+    <ingrediente>Aceite</ingrediente>
+    <ingrediente>Salsa tabasco</ingrediente>
+    <procedimiento>Pelar patatas, cocer y freir</procedimiento>
+    <procedimiento>Añadir la salsa</procedimiento>
+</receta>
