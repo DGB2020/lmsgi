@@ -8,7 +8,7 @@
 
       <xs:element name="titulo" type="xs:string" maxOccurs="1">
       <xs:element name="compositores" maxOccurs="1">     
-        <xs:complexType>
+      <xs:complexType>
 
           <xs:element name="compositor" maxOccurs="unbounded">
             <xs:complexType>
@@ -19,26 +19,26 @@
             </xs:complexType>
           </xs:element>
 
-        </xs:complexType>
+      </xs:complexType>
       </xs:element>
 
-       <xs:element name="productores" maxOccurs="1">     
-        <xs:complexType>
+      <xs:element name="productores" maxOccurs="1">     
+      <xs:complexType>
 
           <xs:element name="productor" maxOccurs="unbounded">
-            <xs:complexType>
+          <xs:complexType>
 
               <xs:element name="nombre" type="xs:string"/> 
               <xs:element name="apellidos" type="xs:string"/>           
 
-            </xs:complexType>
+          </xs:complexType>
           </xs:element>
 
-        </xs:complexType>
+      </xs:complexType>
       </xs:element>
 
-      <xs:element name="sello" type="xs:string" maxOccurs="1">
-      <xs:element name="artista" type="xs:string" maxOccurs="1">      
+      <xs:element name="sello" type="xs:string" maxOccurs="1"/>
+      <xs:element name="artista" type="xs:string" maxOccurs="1"/>>      
 
     </xs:complexType>
   </xs:element>
