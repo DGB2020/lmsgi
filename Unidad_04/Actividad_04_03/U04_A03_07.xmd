@@ -1,45 +1,46 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
   <xs:element name="cancion">
+  <xs:complexType>
+
+    <xs:attribute name="duracion" type="xs:string"/>
+    <xs:attribute name="anio" type="xs:integer"/>
+
+    <xs:element name="titulo" type="xs:string" maxOccurs="1"/>
+    <xs:element name="compositores" maxOccurs="1">     
     <xs:complexType>
 
-      <xs:attribute name="duracion" type="xs:string"/>
-      <xs:attribute name="anio" type="xs:integer"/>
-
-      <xs:element name="titulo" type="xs:string" maxOccurs="1">
-      <xs:element name="compositores" maxOccurs="1">     
-      <xs:complexType>
-
-          <xs:element name="compositor" maxOccurs="unbounded">
-            <xs:complexType>
-
-              <xs:element name="nombre" type="xs:string"/> 
-              <xs:element name="apellidos" type="xs:string"/>           
-
-            </xs:complexType>
-          </xs:element>
-
-      </xs:complexType>
-      </xs:element>
-
-      <xs:element name="productores" maxOccurs="1">     
-      <xs:complexType>
-
-          <xs:element name="productor" maxOccurs="unbounded">
+        <xs:element name="compositor" maxOccurs="unbounded">
           <xs:complexType>
 
-              <xs:element name="nombre" type="xs:string"/> 
-              <xs:element name="apellidos" type="xs:string"/>           
+            <xs:element name="nombre" type="xs:string"/> 
+            <xs:element name="apellidos" type="xs:string"/>           
 
           </xs:complexType>
-          </xs:element>
-
-      </xs:complexType>
-      </xs:element>
-
-      <xs:element name="sello" type="xs:string" maxOccurs="1"/>
-      <xs:element name="artista" type="xs:string" maxOccurs="1"/>>      
+        </xs:element>
 
     </xs:complexType>
+    </xs:element>
+
+    <xs:element name="productores" maxOccurs="1">     
+    <xs:complexType>
+
+        <xs:element name="productor" maxOccurs="unbounded">
+        <xs:complexType>
+
+            <xs:element name="nombre" type="xs:string"/> 
+            <xs:element name="apellidos" type="xs:string"/>           
+
+        </xs:complexType>
+        </xs:element>
+
+    </xs:complexType>
+    </xs:element>
+
+    <xs:element name="sello" type="xs:string" maxOccurs="1"/>
+    <xs:element name="artista" type="xs:string" maxOccurs="1"/>     
+
+  </xs:complexType>
   </xs:element>
+  
 </xs:schema> 
