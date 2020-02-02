@@ -5,11 +5,14 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema"
   <xs:element name="lista_de_personas">
     <xs:complexType>
       <xs:element name="persona" maxOccurs="unbounded">
-        <xs:attribute name="id" type="xs:id"/>                
+        <xs:attribute name="id" type="xs:id"/>
         <xs:complexType>
           <xs:sequence>
             <xs:element name="nombre" type="xs:string"/>
-            <xs:element name="tlf" type="number"/>           
+            <xs:element name="fechanacimiento" type="xs:date"/>   
+            <xs:element name="telefono" type="xs:number" maxOccurs="unbounded"/>
+            <xs:element name="sexo" type="xs:number" minOccurs="0"/>             
+            <xs:element name="numeroseguridadsocial" type="xs:number"/>           
           </xs:sequence>
         </xs:complexType>
       </xs:element>
