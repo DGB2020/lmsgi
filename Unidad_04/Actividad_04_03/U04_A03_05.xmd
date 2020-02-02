@@ -1,2 +1,17 @@
 <?xml version="1.0"?>
-
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+>
+  <xs:element name="cv">
+    <xs:complexType>
+          <xs:sequence>
+            <xs:element name="presentacion" type="xs:string"/>
+            <xs:element name="datos_academicos" type="xs:date"/>   
+            <xs:element name="experiencia_laboral" type="xs:number" maxOccurs="unbounded"/>
+            <xs:element name="lectura" type="xs:number" minOccurs="0"/>             
+            <xs:element name="referencias" type="xs:number"/>           
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+  </xs:element>
+</xs:schema> 
