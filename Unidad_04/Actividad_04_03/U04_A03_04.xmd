@@ -2,7 +2,7 @@
 <xs:schema 
 xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 >
-  <xs:element name="lista_de_personasda">
+  <xs:element name="lista_de_personas">
     <xs:complexType>
       <xs:element name="persona" maxOccurs="unbounded">
         <xs:attribute name="id" type="xs:id"/>                
