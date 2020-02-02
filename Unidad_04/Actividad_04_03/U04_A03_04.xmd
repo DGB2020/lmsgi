@@ -9,7 +9,13 @@
               <xs:element name="nombre" type="xs:string"/>
               <xs:element name="fechanacimiento" type="xs:date"/>   
               <xs:element name="telefono" type="xs:number" maxOccurs="unbounded"/>
-              <xs:element name="sexo" type="xs:number" minOccurs="0"/>             
+              <xs:element name="sexo" type="xs:number" minOccurs="0">
+                 <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="Varón|Mujer"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
               <xs:element name="numeroseguridadsocial" type="xs:number"/>           
             </xs:sequence>
           </xs:complexType>

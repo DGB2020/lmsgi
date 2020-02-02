@@ -1,10 +1,47 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
-  <xs:element name="">
-    <xs:complexType>
-        <xs:sequence>
-          <xs:element name="a" type="xs:string"/>
-        </xs:sequence>
-    </xs:complexType>
+  <xs:element name="html">
+  <xs:complexType>
+
+        <xs:element name="head">
+        <xs:complexType>
+
+            <xs:element name="meta">
+            <xs:complexType>
+                
+                <xs:attribute name="http-equiv" type="xs:string"/>               
+                <xs:attribute name="content" type="xs:string"/>    
+                <xs:attribute name="charset" type="xs:string"/>    
+
+            </xs:complexType>                      
+            </xs:element>
+
+        </xs:complexType>
+        </xs:element>
+
+
+        <xs:element name="body">
+        <xs:complexType>
+
+            <xs:attribute name="bg-color" type="xs:string"/>     
+            <xs:element name="p" maxOccurs="unbounded"/>
+            <xs:complexType>
+
+              <xs:attribute name="align" type="xs:string">
+              <xs:simpleType>
+
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="left|right|center"/>
+                  </xs:restriction>
+
+              </xs:simpleType>
+              </xs:attribute>
+            </xs:complexType>
+        </xs:complexType>
+        </xs:element>
+
+
+
+  </xs:complexType>
   </xs:element>
 </xs:schema> 

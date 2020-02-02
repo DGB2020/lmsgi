@@ -1,10 +1,48 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
-  <xs:element name="">
+  <xs:element name="libro">
     <xs:complexType>
-        <xs:sequence>
-          <xs:element name="a" type="xs:string"/>
-        </xs:sequence>
+
+          <xs:element name="titulo" type="xs:string"/>
+           <xs:element name="disponible">
+            <xs:complexType>
+
+                  <xs:attribute name="tiempo" type="xs:number"/>
+                  <xs:attribute name="disponible" type="xs:number"/>                 
+                  
+            </xs:complexType>
+          </xs:element>
+    
+          <xs:element name="autor" type="xs:string"/>
+          <xs:element name="formato" type="xs:string"/>
+          <xs:element name="publicacion" type="xs:integer"/>          
+
+          <xs:element name="precio">
+            <xs:complexType>
+
+                  <xs:attribute name="cantidad" type="xs:decimal"/>
+                  <xs:attribute name="moneda" type="xs:string"/>                 
+                  
+            </xs:complexType>
+          </xs:element>
+
+          <xs:element name="descuento">
+            <xs:complexType>
+
+                  <xs:attribute name="cantidad" type="xs:integer"/>
+                  
+            </xs:complexType>
+          </xs:element>
+
+           <xs:element name="enlacelibro">
+            <xs:complexType>
+
+                  <xs:attribute name="href" type="xs:string"/>
+                  
+            </xs:complexType>
+          </xs:element>         
+
+
     </xs:complexType>
   </xs:element>
 </xs:schema> 

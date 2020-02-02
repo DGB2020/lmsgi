@@ -1,10 +1,64 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
-  <xs:element name="">
+  <xs:element name="Pedido">
     <xs:complexType>
-        <xs:sequence>
-          <xs:element name="a" type="xs:string"/>
-        </xs:sequence>
+
+      <xs:attribute name="Fecha" type="xs:date"/>
+        <xs:complexType>
+          
+          <xs:element name="Destino">
+            <xs:complexType>
+
+              <xs:element name="Nombre" type="xs:string"/>
+              <xs:element name="Direccion" type="xs:string"/>
+              <xs:element name="Ciudad" type="xs:string"/>
+              <xs:element name="CodPostal" type="xs:integer"/>              
+            
+            </xs:complexType>
+          </xs:element>
+
+          
+          <xs:element name="Ordenante">
+            <xs:complexType>
+
+              <xs:element name="Nombre" type="xs:string"/>
+              <xs:element name="Direccion" type="xs:string"/>
+              <xs:element name="Ciudad" type="xs:string"/>
+              <xs:element name="CodPostal" type="xs:integer"/>              
+            
+            </xs:complexType>
+          </xs:element>
+
+          <xs:element name="Observaciones"/>
+
+          <xs:element name="Contenido">
+            <xs:complexType>
+
+              
+              <xs:element name="Producto" maxOccurs="100">
+                <xs:complexType>        
+
+                  <xs:attribute name="codigo" type="xs:string"/>
+                  <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                     <xs:pattern value="[0-9][0-9][0-9]-[A-Z][A-Z]"/>
+                  </xs:restriction>
+                  </xs:simpleType>
+
+
+                  <xs:element name="descripcion" type="xs:string"/>
+                  <xs:element name="precio" type="xs:decimal"/>                 
+                  <xs:element name="cantidad" type="xs:integer"/>
+
+                </xs:complexType>
+              </xs:element>        
+            
+            
+            </xs:complexType>
+          </xs:element>         
+
+
+        </xs:complexType>
     </xs:complexType>
   </xs:element>
 </xs:schema> 
