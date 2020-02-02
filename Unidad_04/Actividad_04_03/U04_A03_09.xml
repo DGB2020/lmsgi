@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation= "xhtml.xsd" >
+xsi:noNamespaceSchemaLocation= "xhtml.xsd" 
+>
     <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <title>Documento sin titulo</title>

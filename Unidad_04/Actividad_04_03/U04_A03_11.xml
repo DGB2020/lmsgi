@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<libro>
+<libro
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemalocation="U04_A03_11.xsd"
+>
     <titulo> Cien años de soledad </titulo>
     <disponible tiempo="24" unidad="10"/>
     <autor> Gabriel García Márquez </autor>
