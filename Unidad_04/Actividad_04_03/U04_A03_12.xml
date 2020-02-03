@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bib>
+<bib
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemalocation="U04_A03_12.xsd"
+>
   <libro titulo="La joven Jane Austen" editorial="EDB" autor="Marion Jones"/>
   <revista titulo="Mente Sana" editorial="Planeta" numero="126"/>
   <revista titulo="Science" editorial="AAAS" numero="347"/>
