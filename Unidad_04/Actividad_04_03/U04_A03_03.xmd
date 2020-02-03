@@ -2,20 +2,22 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
 
   <xs:element name="agenda">
+  <xs:complexType>
+
+    <xs:element name="persona" maxOccurs="unbounded">
     <xs:complexType>
 
-              <xs:element name="persona" maxOccurs="unbounded">
-                <xs:attribute name="id" type="xs:id"/>                
-                <xs:complexType>
+      <xs:attribute name="id" type="xs:id"/>                
+               
+      <xs:element name="nombre" type="xs:string"/>
 
-                  <xs:sequence>
-                    <xs:element name="nombre" type="xs:string"/>
-                    <xs:element name="tlf" type="number"/>           
-                  </xs:sequence>
+      <xs:element name="tlf" type="number"/>           
+
                   
-                </xs:complexType>
-            </xs:element>
     </xs:complexType>
+    </xs:element>
 
+  </xs:complexType>
   </xs:element>
+
 </xs:schema> 

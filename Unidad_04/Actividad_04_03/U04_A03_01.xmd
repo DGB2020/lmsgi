@@ -5,7 +5,7 @@
       <xs:sequence>
         <xs:element name="calle" type="xs:string" maxOccurs="1"/>
         <xs:element name="pais" type="xs:string" maxOccurs="1"/>
-        <xs:element name="codigo" type="xs:number" maxOccurs="1"/>
+        <xs:element name="codigo" type="xs:integer" maxOccurs="1"/>
         <xs:element name="nombre" type="xs:string" maxOccurs="1"/>
       </xs:sequence>
     </xs:complexType>

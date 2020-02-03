@@ -5,7 +5,7 @@
       <xs:sequence>
         <xs:element name="titulo" type="xs:string" maxOccurs="1"/>
         <xs:element name="ingrediente" type="xs:string" maxOccurs="unbounded"/>
-        <xs:element name="procedimiento" type="xs:number" maxOccurs="unbounded"/>
+        <xs:element name="procedimiento" type="xs:integer" maxOccurs="unbounded"/>
         <xs:element name="tiempo" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
