@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<etiqueta 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemalocation="U04_A04_03.xsd"
+>
+  <calle>C/Ronda, 3</calle>
+  <pais>España</pais>
+  <codigo>18465</codigo>
+  <nombre>Pepe García</nombre>
+</etiqueta>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<alumnos 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemalocation="U04_A04_01.xsd"
+>
+  <alumno dni="99887766X">
+    <nombre>Dario</nombre>
+    <apellidos>Fernández Álvarez</apellidos>
+    <nota>3.50</nota>
+  </alumno>
+  <alumno dni="99887766X">
+    <nombre>Dario</nombre>
+    <apellidos>Fernández Álvarez</apellidos>
+    <nota>3.50</nota>
+  </alumno>
+  <alumno dni="99887766X">
+    <nombre>Dario</nombre>
+    <apellidos>Fernández Álvarez</apellidos>
+    <nota>3.50</nota>
+  </alumno>
+</alumnos>
