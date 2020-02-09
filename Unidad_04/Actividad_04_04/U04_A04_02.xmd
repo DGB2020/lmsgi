@@ -1,13 +1,58 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
-  <xs:element name="etiqueta">
+  <xs:element name="alumnos">
+  <xs:complexType>
+  <xs:sequence>
+
+    <xs:element name="alumno" >
     <xs:complexType>
-      <xs:sequence>
-        <xs:element name="calle" type="xs:string" maxOccurs="1"/>
-        <xs:element name="pais" type="xs:string" maxOccurs="1"/>
-        <xs:element name="codigo" type="xs:number" maxOccurs="1"/>
-        <xs:element name="nombre" type="xs:string" maxOccurs="1"/>
-      </xs:sequence>
+
+      <xs:attribute name="DNI" type="xs:string"/>
+      <xs:element name="nombre" type="xs:string" />
+      <xs:element name="apellidos" type="xs:string"/>
+
+      <xs:element name="nota">   
+      <xs:complexType>
+      
+        <xs:simpleType>
+          <xs:restriction base="xs:decimal">
+          <xs:fractionDigits value="2" />
+          </xs:restriction>
+        
+        </xs:simpleType>
+     
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="No presentado"/>
+          </xs:restriction>        
+        </xs:simpleType>
+
+
+      </xs:complexType>                 
+      </xs:element>
+
+      <xs:element name="edad" minOccurs="0"/>
+      <xs:simpleType>
+      </xs:simpleType>
+
+      <xs:element name="comentario" minOccurs="0" type="xs:string"/>
+
+      <xs:element name="direccion" minOccurs="0">
+      <xs:complexType>
+
+        <xs:element name="calle" type="xs:string"/>
+        <xs:element name="numerocalle" type="xs:string"/>
+        <xs:element name="piso" type="xs:string"/>
+        <xs:element name="poblacion" type="xs:string"/>                        
+        <xs:element name="codigopostal" type="xs:string"/>         
+
+      </xs:complexType>      
+      </xs:element>
+
     </xs:complexType>
+    </xs:element>      
+      
+  </xs:sequence>
+  </xs:complexType>    
   </xs:element>
 </xs:schema> 

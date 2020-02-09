@@ -3,9 +3,16 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemalocation="U04_A04_04.xsd"
 >
-  <figura color="FFAA9B" mimeType>
+  <figura color="FFAA9B" mimeType="image/gif">
     <nombre></nombre>
     <lado></lado>
   </figura>
-
+  <figura color="FFAA9B" mimeType="image/png">
+    <nombre></nombre>
+    <radio></radio>
+  </figura>
+  <figura color="FFAA9B" mimeType="image/jpg">
+    <nombre></nombre>
+    <radio></radio>
+  </figura>
 </figuras>

@@ -8,14 +8,14 @@ xsi:noNamespaceSchemalocation="U04_A04_01.xsd"
     <apellidos>Fernández Álvarez</apellidos>
     <nota>3.50</nota>
   </alumno>
-  <alumno dni="99887766X">
-    <nombre>Dario</nombre>
-    <apellidos>Fernández Álvarez</apellidos>
-    <nota>3.50</nota>
+  <alumno dni="11223344A">
+    <nombre>Luis</nombre>
+    <apellidos>Álvarez García</apellidos>
+    <nota>6.75</nota>
   </alumno>
-  <alumno dni="99887766X">
-    <nombre>Dario</nombre>
-    <apellidos>Fernández Álvarez</apellidos>
-    <nota>3.50</nota>
+  <alumno dni="556677Z">
+    <nombre>Pilar</nombre>
+    <apellidos>Rodríguez Menéndez</apellidos>
+    <nota>8.25</nota>
   </alumno>
 </alumnos>
