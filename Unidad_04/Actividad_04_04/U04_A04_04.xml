@@ -4,15 +4,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemalocation="U04_A04_04.xsd"
 >
   <figura color="FFAA9B" mimeType="image/gif">
-    <nombre></nombre>
-    <lado></lado>
+    <nombre>Cuadrado</nombre>
+    <lado>4</lado>
   </figura>
   <figura color="FFAA9B" mimeType="image/png">
-    <nombre></nombre>
-    <radio></radio>
+    <nombre>Círculo</nombre>
+    <radio>5</radio>
   </figura>
   <figura color="FFAA9B" mimeType="image/jpg">
-    <nombre></nombre>
-    <radio></radio>
+    <nombre>Triángulo</nombre>
+    <base>4</base>
+    <altura>3</altura>
   </figura>
 </figuras>
