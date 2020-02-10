@@ -8,7 +8,7 @@
             <xs:sequence>
               <xs:element name="nombre" type="xs:string"/>
               <xs:element name="fechanacimiento" type="xs:date"/>   
-              <xs:element name="telefono" type="xs:number" maxOccurs="unbounded"/>
+              <xs:element name="telefono" type="xs:string" maxOccurs="unbounded"/>
               <xs:element name="sexo" type="xs:number" minOccurs="0">
                  <xs:simpleType>
                   <xs:restriction base="xs:string">
