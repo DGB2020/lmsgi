@@ -3,7 +3,7 @@
   <xs:element name="Pedido">
     <xs:complexType>
 
-      <xs:attribute name="Fecha" type="xs:date"/>
+      <xs:attribute name="Fecha" type="xs:date" use="required"/>
         <xs:complexType>
           
           <xs:element name="Destino">

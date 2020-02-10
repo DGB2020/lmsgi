@@ -3,14 +3,14 @@
   <xs:element name="cancion">
   <xs:complexType>
 
-    <xs:attribute name="duracion" type="xs:string"/>
-    <xs:attribute name="anio" type="xs:integer"/>
+    <xs:attribute name="duracion" type="xs:time"/>
+    <xs:attribute name="anio" type="xs:gYear"/>
 
     <xs:element name="titulo" type="xs:string" maxOccurs="1"/>
     <xs:element name="compositores" maxOccurs="1">     
     <xs:complexType>
 
-        <xs:element name="compositor" maxOccurs="unbounded">
+        <xs:element name="compositor" maxOccurs="10">
           <xs:complexType>
 
             <xs:element name="nombre" type="xs:string"/> 
@@ -25,7 +25,7 @@
     <xs:element name="productores" maxOccurs="1">     
     <xs:complexType>
 
-        <xs:element name="productor" maxOccurs="unbounded">
+        <xs:element name="productor" maxOccurs="10">
         <xs:complexType>
 
             <xs:element name="nombre" type="xs:string"/> 

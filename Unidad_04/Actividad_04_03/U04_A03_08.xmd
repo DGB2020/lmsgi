@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
 
-  <xs:element name="cd" maxOccurs="1">
+  <xs:element name="cd" >
   <xs:complexType>
 
     <xs:element name="songs" maxOccurs="1">
     <xs:complexType>
 
-      <xs:element name="cancion">
+      <xs:element name="cancion" maxOccurs="99">
       <xs:complexType>
 
         <xs:attribute name="duracion" type="xs:string"/>
@@ -51,6 +51,16 @@
       </xs:element>
       
     </xs:complexType>  
+    </xs:element>
+
+    <xs:element name="fecha">
+    <xs:complexType>
+    
+      <xs:attribute name="dia" type="xs:string" use="required"/>
+      <xs:attribute name="mes" type="xs:string" use="required"/>      
+      <xs:attribute name="anio" type="xs:string" use="required"/>      
+    
+    </xs:complexType>    
     </xs:element>
 
   </xs:complexType>
