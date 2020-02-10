@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:element name="figuras">
+  <xs:complexType>
+
+    <xs:element name="figura">
+    <xs:complexType>
+
+      <xs:attribute name="color" type="xs:coloresHex">
+      <xs:simpleType>
+       <xs:restriction base="xs:string">
+        <xs:pattern value="[0-9A-Fa-f]{6}"/>
+        </xs:restriction>
+      </xs:simpleType>
+      </xs:attribute>
+
+      <xs:attribute name="tipo" type="xs:tipoMime">
+      <xs:simpleType>
+       <xs:restriction base="xs:string">
+        <xs:pattern value="image/gif"/>
+        <xs:pattern value="image/png"/>
+        <xs:pattern value="image/jpg"/>
+        </xs:restriction>
+      </xs:simpleType>
+      </xs:attribute>
+     
+        <xs:element name="nombre" type="xs:string"/>
+
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="nombre" type="xs:string"/>
+
+    </xs:complexType>
+    </xs:element>
+
+  </xs:complexType>
+  </xs:element>
+</xs:schema> 
