@@ -1,0 +1,23 @@
+Los bordes que debes definir son:
+    * Encabezado nivel 1: borde completo con una anchura de 2px, sólido y de color azul (#00FF).
+    * Encabezado nivel 2: borde completo con una anchura de 2px, sólido y de color gris (#AAAAAA).
+    * Listas: borde completo con una anchura de 2px, solido y de color verde (#0FF0).
+Los márgenes y separaciones en la página deben tener las siguientes dimensiones: 
+    * Margen izquierdo y derecho de 10px (en todos los elementos de la página)
+    * Encabezado nivel 1 margen interior (padding) de 10 px.
+    * Margen superior e inferior de Encabezado nivel 1 30px.
+    * Encabezado nivel 2 margen interior (padding) de 5 px.
+    * Margen superior e inferior de todos los bloques con borde (excepto el Encabezado nivel 1) de 15px .
+    * Margen entre los elementos de la primera lista de 15 px.
+NOTA: Puedes modificar el código HTML proporcionado para añadir los identificadores y clases que necesites. 
+
+3.- Utilizando el mismo código HTML que en el ejercicio anterior, debes modificarlo y crear el fichero CSS necesario, para obtener una página web que tenga el mismo aspecto que la siguiente imagen:
+ 
+NOTA: El contenido de texto de las tres columnas de la parte inferior aparece recortado en la imagen. Es decir, la página web a obtener debe mostrar todo el contenido de texto incluido en el  HTML.
+Las características del diseño de esta página son:
+    * Todo el contenido de la página debe tener un ancho fijo de 960 px, que debe aparecer centrado en pantalla.
+    * El encabezado de nivel 1 centrado.
+    * El contenido principal de la página se organiza en dos columnas, una de 260 px de ancho y la otra el espacio restante de 700 px.
+    * La lista que explica el contenido del libro se muestra como un texto a tres columnas del mismo ancho.
+NOTA: Puedes modificar el código HTML proporcionado para añadir los identificadores y clases que necesites. También puedes añadir etiquetas <div> para definir elementos contenedores en la página. 
+
