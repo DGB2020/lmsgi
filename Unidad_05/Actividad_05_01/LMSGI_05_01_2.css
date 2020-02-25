@@ -1,0 +1,14 @@
+h1 {border: 2px solid #0000ff;
+}
+
+h2{border: 2px solid #aaaaaa;
+}
+
+ul ol {
+    border: 2px solid #00ff00;
+}
+
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
