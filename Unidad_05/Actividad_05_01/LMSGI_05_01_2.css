@@ -16,11 +16,15 @@ ul, ol {
     margin-bottom: 15px;
 }
 
-body {
+li {
+    margin-bottom: 15px;
+}
+
+* {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#lista1 li {
-    margin-bottom: 15px;
+.last {
+    margin-bottom: 0px;
 }
