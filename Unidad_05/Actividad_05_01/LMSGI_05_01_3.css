@@ -10,4 +10,9 @@ h1 {
 
 #columna {
     width: 260px;
+    float: left;
+}
+
+#conenido {
+    width: 700px;
 }
