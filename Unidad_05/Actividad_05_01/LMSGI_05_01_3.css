@@ -5,7 +5,6 @@ body {
 
 h1 {
     text-align:  center;
-    color: rebeccapurple;
 }
 
 #columna1 {
@@ -15,12 +14,12 @@ h1 {
 }
 
 #columna2 {
+    float: right;
     width: 700px;
 }
 
 .miniColumn {
     float: left;
-    width: 230px;
-    border: 1px red;
-
+    width: 200px;
+    padding: 5PX;
 }
