@@ -4,5 +4,10 @@ body {
 }
 
 h1 {
-    vertical-align: center;
+    text-align:  center;
+    color: rebeccapurple;
+}
+
+#columna {
+    width: 260px;
 }
