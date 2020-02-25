@@ -8,11 +8,18 @@ h1 {
     color: rebeccapurple;
 }
 
-#columna {
+#columna1 {
     width: 260px;
+    height: 600px;
     float: left;
 }
 
-#contenido {
+#columna2 {
     width: 700px;
+}
+
+.miniColumn {
+    float: left;
+    width: 233px;
+
 }
