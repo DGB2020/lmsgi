@@ -6,7 +6,9 @@
 #menu a {
     padding-left: 25px;    
     padding-right: 25px;
-
+    text-decoration: none;
+    color: black;
+    width: 100px;
 }
 
 #menu a:hover{
