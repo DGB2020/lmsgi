@@ -4,14 +4,13 @@
 }
 
 #menu a {
-    width: 200px;
     text-decoration: none;
     color: black;
     padding-left: 25px;
     padding-right: 25px;
 }
 
-#menu a:hover{
+#menu a:hover ,a:active{
     background-color: green;
 }
 
