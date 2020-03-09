@@ -1,7 +1,4 @@
-﻿body {
-	width: 100%;;
-}
-
+﻿
 * {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
 }
@@ -130,7 +127,7 @@ h5 {
 
 footer {
 	float: left;
-	width: 1024px;
+	width: 100%;
 }
 
 footer div:nth-child(2) {	
