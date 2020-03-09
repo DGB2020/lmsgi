@@ -1,0 +1,25 @@
+body {
+    width: 960px;
+    vertical-align: center;
+}
+
+h1 {
+    text-align:  center;
+}
+
+#columna1 {
+    width: 260px;
+    height: 600px;
+    float: left;
+}
+
+#columna2 {
+    float: right;
+    width: 700px;
+}
+
+.miniColumn {
+    float: left;
+    width: 200px;
+    padding: 5PX;
+}
