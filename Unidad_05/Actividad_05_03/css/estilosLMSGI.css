@@ -1,5 +1,5 @@
 ﻿
-body {
+* {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
 }
 
@@ -36,7 +36,7 @@ nav ul {
 
 nav li {
 	line-height: 3em;
-    background: url("../imagenes/carpeta.png") no-repeat 7px 7px transparent;
+    background: url("../imagenes/carpeta.png") no-repeat 7px 7px  5px transparent;
     list-style-type: none;
     margin: 0;
     padding: 0px 0px 1px 29px;
