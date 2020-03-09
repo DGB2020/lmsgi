@@ -11,7 +11,7 @@
 header {
 	float: left;
 	margin-left: 210px;
-	width: 78%;
+	width: 80.5%;
 	padding: 15px;
 	border: 1px solid #dddddd;	
 }
@@ -25,7 +25,7 @@ h1 {
 nav {
 	float: left;
 	width: 200px;
-	min-height: 655px;
+	min-height: 730px;
 	border: 1px solid #dddddd;
 	margin-top: -86px;
 }
@@ -36,7 +36,7 @@ nav ul {
 
 nav li {
 	line-height: 3em;
-    background: url("../imagenes/carpeta.png") no-repeat 7px 7px  5px transparent;
+    background: url("../imagenes/carpeta.png") no-repeat 5px 12px  transparent;
     list-style-type: none;
     margin: 0;
     padding: 0px 0px 1px 29px;
@@ -53,7 +53,7 @@ aside{
 	width: 12.4%;
 	border: 1px solid #dddddd;
 	margin-top: 10px;
-	min-height: 560px;
+	min-height: 633px;
 	position: relative;
 	left: 0px;
 }
@@ -118,6 +118,7 @@ h3 {
 
 h4 {
 	color: green;
+	font-size: 12px;
 }
 
 footer {
