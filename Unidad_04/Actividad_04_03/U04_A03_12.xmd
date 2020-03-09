@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
   <xs:element name="bib">
     <xs:complexType>
-    <xs:sequence>
+    <xs:choice maxOccurs="unbounded">
 
       <xs:element name="libro" minOccurs="0" maxOccurs="unbounded">
         <xs:complexType>
@@ -21,8 +21,7 @@
         </xs:complexType>
       </xs:element>   
 
-    </xs:sequence>
-
+    </xs:choice>
     </xs:complexType>
   </xs:element>
 </xs:schema> 

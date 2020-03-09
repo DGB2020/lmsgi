@@ -3,31 +3,36 @@
   <xs:element name="html">
   <xs:complexType>
 
-        <xs:element name="head">
+        <xs:attribute name="xmlns&#58;xsi" type="xs:string"/>    
+        <xs:attribute name="xsi&#58;noNamespaceSchemaLocation" type="xs:string"/>    
+
+        <xs:element name="head" maxOccurs="1">
         <xs:complexType>
 
-            <xs:element name="meta">
+            <xs:element name="meta" maxOccurs="unbounded"> 
             <xs:complexType>
                 
-                <xs:attribute name="http-equiv" type="xs:string"/>               
-                <xs:attribute name="content" type="xs:string"/>    
-                <xs:attribute name="charset" type="xs:string"/>    
+                <xs:attribute name="http&hyphen;equiv" type="xs:string" use="required"/>               
+                <xs:attribute name="content" type="xs:string" use="required"/>    
+                <xs:attribute name="charset" type="xs:string" use="optional"/>    
 
             </xs:complexType>                      
             </xs:element>
 
+            <xs:element name="title" type="xs:string" />
+
         </xs:complexType>
         </xs:element>
 
-
-        <xs:element name="body">
+        <xs:element name="body" maxOccurs="1">
         <xs:complexType>
 
-            <xs:attribute name="bg-color" type="xs:string"/>     
-            <xs:element name="p" maxOccurs="unbounded"/>
+            <xs:attribute name="bg&hyphen;color" type="xs:string"/>     
+            <xs:element name="p" maxOccurs="unbounded"/ mixed="true">
             <xs:complexType>
 
-              <xs:attribute name="align" type="xs:string">
+              <xs:attribute name="align" type="xs:string" use="optional">
+
               <xs:simpleType>
 
                   <xs:restriction base="xs:string">
@@ -35,7 +40,8 @@
                   </xs:restriction>
 
               </xs:simpleType>
-              </xs:attribute>
+
+            </xs:attribute>
             </xs:complexType>
         </xs:complexType>
         </xs:element>

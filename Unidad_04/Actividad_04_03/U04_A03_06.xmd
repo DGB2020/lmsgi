@@ -10,25 +10,31 @@
                <xs:element name="AUTOR" type="xs:string"/>             
               <xs:element name="EMAIL" type="xs:string"/>
               <xs:element name="VERSION" type="xs:decimal"/>                             
-              <xs:element name="FECHA" type="xs:date"/>              
+              <xs:element name="FECHA" type="xs:string"/>              
 
             </xs:complexType>
           </xs:element>
 
           <xs:element name="PART">
+          <xs:complexType>
+
+            <xs:element name="Q">
             <xs:complexType>
 
-              <xs:attribute name="number" type="xs:integer" />
-              <xs:element name="QTEXT">
-                <xs:complexType>
+                  <xs:attribute name="number" type="xs:integer" />
+                  <xs:element name="QTEXT" maxOccurs="1">
+                    <xs:complexType>
 
-                  <xs:attribute name="id" type="xs:integer" />
+                      <xs:attribute name="id" type="xs:integer" />
 
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="A"/>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="A" />
 
-            </xs:complexType>          
+            <xs:complexType>
+            </xs:element>
+
+          </xs:complexType>          
           </xs:element>
 
     </xs:complexType>
