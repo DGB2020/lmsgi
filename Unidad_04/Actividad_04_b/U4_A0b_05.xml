@@ -1,18 +1,23 @@
 <?xml version="1.0"encoding="UTF-8"?>
-<!DOCTYPE agenda[
-<!ELEMENT agenda (persona)+>
-<!ELEMENT persona (nombre, tlf)>
-<!ATTLIST persona id #REQUIRED>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT tlf (#PCDATA)>
+<!DOCTYPE lista_de_personas[
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT fechanacimiento (#PCDATA) >
+<!ELEMENT sexo (#PCDATA) >
+<!ELEMENT numeroseguridadsocial (#PCDATA)>
 ]>
-<agenda>
-<persona>
-<nombre>Ricardo Borriquero</nombre>
-<tlf>951345678</tlf>
+
+<lista_de_personas>
+<persona nacionalidad="español">
+<nombre>José García</nombre>
+<fechanacimiento>25/04/1984</fechanacimiento>
+<telefono>670201256</telefono>
+<telefono>968472898</telefono>
+<sexo>Varón</sexo>
 </persona>
-<persona>
-<nombre>Eva Risto</nombre>
-<tlf>955837659</tlf>
+<persona nacionalidad="español">
+<nombre>Juan Antonio</nombre>
+<fechanacimiento>25/04/1984</fechanacimiento>
+<telefono>670201256</telefono>
+<numeroseguridadsocial>2569587412569</numeroseguridadsocial>
 </persona>
-</agenda>
+</lista_de_personas>
