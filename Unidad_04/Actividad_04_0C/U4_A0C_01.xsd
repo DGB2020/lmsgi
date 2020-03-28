@@ -13,7 +13,7 @@
     <xs:element name="dirGestion" type="xs:string">
     </xs:element>       
 
-    <xs:element name="codigo" type="xs:string">
+    <xs:element name="codigo">
       <xs:simpleType>
         <xs:restriction base="xs:string">
           <xs:pattern value="\w.{7}"/>
@@ -24,7 +24,7 @@
     <xs:element name="nombreTrabajador" type="xs:string">
     </xs:element>
 
-    <xs:element name="observaciones" type="xs:string">
+    <xs:element name="observaciones">
     <xs:simpleType>
 
         <xs:restriction base="xs:string">
