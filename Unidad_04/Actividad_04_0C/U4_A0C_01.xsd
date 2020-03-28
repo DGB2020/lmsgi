@@ -4,16 +4,32 @@
   <xs:complexType>
   <xs:sequence>
 
-    <xs:element name="sucursal">
-
-      <xs:attribute name="id" type="xs:string"/>                
-               
-      <xs:element name="nombre" type="xs:string"/>
-
-      <xs:element name="tlf" type="xs:string"/> 
-
+    <xs:element name="sucursalNombre" type="xs:string">
     </xs:element>
-      
+
+    <xs:element name="dirExposicion" type="xs:string">
+    </xs:element>   
+
+    <xs:element name="dirGestion" type="xs:string">
+    </xs:element>       
+
+    <xs:element name="codigo">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="\w.{7}"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:element> 
+
+    <xs:element name="nombreTrabajador" type="xs:string">
+    </xs:element>
+
+    <xs:element name="observaciones" type="xs:string">
+    </xs:element>
+
+    <xs:element name="plazoRevision" type="xs:integer">
+    </xs:element>
+
   </xs:sequence>
   </xs:complexType>    
   </xs:element>
