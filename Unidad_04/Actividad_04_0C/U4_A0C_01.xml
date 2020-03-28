@@ -16,7 +16,19 @@ xsi:noNamespaceSchemalocation="U04_A0C_01.xsd"
     </dirGestion>
 
     <codigo>
-        Z987654
+        Z9876543
     </codigo>
+
+    <nombreTrabajador>
+        Manuel Fernández
+    </nombreTrabajador>
+
+    <observaciones>
+        urgente
+    </observaciones>
+
+    <plazoRevision>
+        23
+    </plazoRevision>
 
 </pedido>

@@ -24,7 +24,7 @@
     <xs:element name="nombreTrabajador" type="xs:string">
     </xs:element>
 
-    <xs:element name="observaciones" type="xs:string">
+    <xs:element name="observaciones" >
     <xs:simpleType>
 
         <xs:restriction base="xs:string">
