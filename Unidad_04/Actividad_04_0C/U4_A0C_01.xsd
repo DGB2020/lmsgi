@@ -25,6 +25,13 @@
     </xs:element>
 
     <xs:element name="observaciones" type="xs:string">
+    <xs:simpleType>
+
+        <xs:restriction base="xs:string">
+          <xs:pattern value="urgente|incompleto"/>
+        </xs:restriction>
+
+    </xs:simpleType>
     </xs:element>
 
     <xs:element name="plazoRevision" type="xs:integer">
