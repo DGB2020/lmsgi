@@ -12,13 +12,18 @@
 ]>
 <bib>
     <libro>
-        <titulo></titulo>
-        <editorial></editorial>
-        <autor></autor>
+        <titulo>1984</titulo>
+        <editorial>Editorial Espasa</editorial>
+        <autor>George Orwell</autor>
     </libro>
     <revista>
-        <titulo></titulo>
-        <editorial></editorial>
-        <autor></autor>
+        <titulo>Mundo Runner</titulo>
+        <editorial>Revistas y Folletos Martínez</editorial>
+        <autor>Varios</autor>
     </revista>
+    <libro>
+        <titulo>Un mundo feliz</titulo>
+        <editorial>Editorial Planeta</editorial>
+        <autor>Aldous Huxley</autor>
+    </libro>    
 </bib>
