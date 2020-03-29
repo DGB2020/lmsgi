@@ -10,3 +10,15 @@
 <!ATTLIST revista editorial CDATA #REQUIRED>
 <!ATTLIST revista numero CDATA #REQUIRED>
 ]>
+<bib>
+    <libro>
+        <titulo></titulo>
+        <editorial></editorial>
+        <autor></autor>
+    </libro>
+    <revista>
+        <titulo></titulo>
+        <editorial></editorial>
+        <autor></autor>
+    </revista>
+</bib>
