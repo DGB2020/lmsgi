@@ -4,10 +4,10 @@
 <!ELEMENT persona (nombre, email, relacion?)*>
 <!ATTLIST persona sexo CDATA #REQUIRED>
 <!ATTLIST persona id ID #REQUIRED>
-<!ELEMENT nombre (#PCDATA) #REQUIRED>
-<!ELEMENT nombre (#PCDATA) #REQUIRED>
-<!ELEMENT nombre (#PCDATA) #REQUIRED>
-<!ATTLIST relacion amigo-de CDATA >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST relacion amigo-de CDATA #REQUIRED>
 ]>
 <listin>
     <persona sexo="hombre" id="ricky">
