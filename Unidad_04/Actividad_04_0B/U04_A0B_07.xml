@@ -11,19 +11,6 @@
 <!ATTLIST revista numero CDATA #REQUIRED>
 ]>
 <bib>
-    <libro>
-        <titulo>1984</titulo>
-        <editorial>Editorial Espasa</editorial>
-        <autor>George Orwell</autor>
-    </libro>
-    <revista>
-        <titulo>Mundo Runner</titulo>
-        <editorial>Revistas y Folletos Martínez</editorial>
-        <autor>Varios</autor>
-    </revista>
-    <libro>
-        <titulo>Un mundo feliz</titulo>
-        <editorial>Editorial Planeta</editorial>
-        <autor>Aldous Huxley</autor>
-    </libro>    
+    <libro titulo="1984" editorial="Editorial Espasa" autor="George Orwell" />
+    <revista titulo="Balas y escopetas" editorial="Publicaciones Menéndez" autor="Varios" />
 </bib>
