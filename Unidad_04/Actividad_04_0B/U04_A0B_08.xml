@@ -5,6 +5,9 @@
 <!ATTLIST persona sexo CDATA #REQUIRED>
 <!ATTLIST persona id ID #REQUIRED>
 <!ELEMENT nombre (#PCDATA) #REQUIRED>
+<!ELEMENT nombre (#PCDATA) #REQUIRED>
+<!ELEMENT nombre (#PCDATA) #REQUIRED>
+<!ATTLIST relacion amigo-de CDATA >
 ]>
 
 <listin>
