@@ -1,5 +1,5 @@
-<?xml version="1.0"encoding="UTF-8"?>
-<!DOCTYPE listaCvs[
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE documento[
 <!ELEMENT cv (presentacion, (datos_academicos | experiencia_laboral)+, (lectura|deportes|otros)*, referencias*)>
 <!ELEMENT presentacion (#PCDATA)>
 <!ELEMENT datos_academicos (#PCDATA)>
@@ -9,7 +9,14 @@
 <!ELEMENT otros (#PCDATA)>
 <!ELEMENT referencias (#PCDATA)>
 ]>
-<listaCvs>
+<documento>
     <cv>
+        <presentacion>Hola, mi nombre es Pepito</presentacion>
+        <datos_academicos>Bachillerato en Instituto La Alameda</datos_academicos>
+        <experiencia_laboral>Becario en Smokeselling Consulting</experiencia_laboral>
+        <experiencia_laboral>Reponedor en Supermercados Manolo</experiencia_laboral>
+        <deportes>Alpinismo</deportes>
+        <lectura>Tolkien y Realismo mágico</lectura>
+        <otros>Aficionado a la fotografía</otros>
     </cv>
-</listaCvs>
+</documento>
