@@ -9,7 +9,6 @@
 <!ELEMENT nombre (#PCDATA) #REQUIRED>
 <!ATTLIST relacion amigo-de CDATA >
 ]>
-
 <listin>
     <persona sexo="hombre" id="ricky">
         <nombre>Ricky Martin</nombre>
