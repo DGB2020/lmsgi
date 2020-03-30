@@ -3,6 +3,7 @@
 <!ELEMENT listin (persona*)>
 <!ELEMENT persona ( nombre, email, relacion?)* >
 <!ATTLIST persona sexo CDATA #REQUIRED>
+<!ATTLIST persona id ID #REQUIRED>
 ]>
 
 <listin>
