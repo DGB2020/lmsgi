@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE documento[
-<!ELEMENT documento(cv)>
+<!ELEMENT documento (cv)>
 <!ELEMENT cv (presentacion, (datos_academicos | experiencia_laboral)+, (lectura|deportes|otros)*, referencias*)>
 <!ELEMENT presentacion (#PCDATA)>
 <!ELEMENT datos_academicos (#PCDATA)>
