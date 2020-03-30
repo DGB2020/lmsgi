@@ -4,8 +4,17 @@
 <title>U4_A0b_02</title>
 </head>
 <body>
-    &gt;!ELEMENT cv (presentacion, (datos_academicos | experiencia_laboral)+, 
-    (lectura|deportes|otros)*, referencias*)&lt;
+    <p>
+    &lt;!ELEMENT cv (presentacion, (datos_academicos | experiencia_laboral)+, 
+    (lectura|deportes|otros)*, referencias*)&gt;
+    </p>
+    <p style="width: 25%;">
+        Ésta linea de un DTD nos indica que el elemento raíz <strong>cv</strong> contiene, en este orden (debido al uso 
+        del operador <strong>","</strong>) un elemento <strong>presentacion</strong>, seguido de al menos una ocurrencia 
+        del elemento <strong>datos_academicos</strong> o <strong>experiencia_laboral</strong>, pudiendo aparecer los dos en cualquier 
+        número de ocurrencias y orden, después los elementos <strong>lectura, deportes y otros</strong> pueden no aparecer o aparecer múltiples veces, en cualquier orden.
+        Y por último el elemento <strong>referencias</strong> puede aparecer ninguna o múltiples veces.
+    </p>
 </body>
 
 </html> 
