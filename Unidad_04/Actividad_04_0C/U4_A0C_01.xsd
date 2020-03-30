@@ -36,7 +36,8 @@
 
     <xs:element name="plazoRevision" type="xs:integer">
     </xs:element>
-
+  
+    
   </xs:sequence>
   </xs:complexType>    
   </xs:element>

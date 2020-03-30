@@ -23,6 +23,10 @@ xsi:noNamespaceSchemalocation="U04_A0C_01.xsd"
         Manuel Fernández
     </nombreTrabajador>
 
+    <fecha>
+
+    </fecha>
+
     <observaciones>
         urgente
     </observaciones>
@@ -30,5 +34,19 @@ xsi:noNamespaceSchemalocation="U04_A0C_01.xsd"
     <plazoRevision>
         23
     </plazoRevision>
+
+    <articulo>
+        <codigoArt>ABC-123</codigoArt>
+        <unidades>1</unidades>
+        <precio>20</precio>
+        <observacionesArt>Frágil, no apilar más de 3 cajas</observacionesArt>
+    </articulo>
+
+    <articulo>
+        <codigoArt>ZYX-456</codigoArt>
+        <unidades>5</unidades>
+        <precio>30</precio>
+        <observacionesArt>Mantener refrigerado</observacionesArt>
+    </articulo>
 
 </pedido>
