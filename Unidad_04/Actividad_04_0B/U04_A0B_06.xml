@@ -22,7 +22,7 @@
     <autor>Gabriel García Márquez </autor>
     <formato>Rústica </formato>
     <publicacion>1967 </publicacion>
-    <precio cantidad="39.99"></precio>
+    <precio cantidad="39.99" moneda="yen"></precio>
     <descuento cantidad="5"></descuento>
     <enlacelibro enlace="/exec/ISBN/84-473-0619-4"></enlacelibro>
 </libro>
