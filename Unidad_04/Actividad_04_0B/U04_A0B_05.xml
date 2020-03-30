@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista_de_personas[
 <!ELEMENT persona (nombre, fechanacimiento, telefono*,sexo) >
+<!ATTLIST persona nacionalidad CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA) >
 <!ELEMENT fechanacimiento (#PCDATA) >
 <!ELEMENT sexo (#PCDATA) >
