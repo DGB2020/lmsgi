@@ -12,5 +12,5 @@
 ]>
 <bib>
     <libro titulo="1984" editorial="Editorial Espasa" autor="George Orwell" />
-    <revista titulo="Balas y escopetas" editorial="Publicaciones Menéndez" autor="Varios" />
+    <revista titulo="Balas y escopetas" editorial="Publicaciones Menéndez" numero="12" />
 </bib>
