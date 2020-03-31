@@ -47,8 +47,8 @@
                     <xs:pattern value="\d{3}-\"/>
                   </xs:restriction>
                 </xs:simpleType>
-              <xs:element type="xs:byte" name="unidades"/>
-              <xs:element type="xs:byte" name="precio"/>
+              <xs:element name="unidades" type="xs:byte" />
+              <xs:element  name="precio" type="xs:byte"/>
               <xs:element  name="observacionesArt" type="xs:string"/>
             </xs:sequence>
           </xs:complexType>
