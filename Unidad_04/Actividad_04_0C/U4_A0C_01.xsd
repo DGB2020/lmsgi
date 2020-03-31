@@ -41,7 +41,7 @@
         <xs:element name="articulo" maxOccurs="50" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element type="xs:string" name="codigoArt"/>
+              <xs:element  name="codigoArt" type="xs:string"/>
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:pattern value="\d{3}-\"/>
@@ -49,7 +49,7 @@
                 </xs:simpleType>
               <xs:element type="xs:byte" name="unidades"/>
               <xs:element type="xs:byte" name="precio"/>
-              <xs:element type="xs:string" name="observacionesArt"/>
+              <xs:element  name="observacionesArt" type="xs:string"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
