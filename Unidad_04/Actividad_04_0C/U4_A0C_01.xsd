@@ -24,6 +24,9 @@
         <xs:element name="nombreTrabajador" type="xs:string">
         </xs:element>
 
+        <xs:element name="fecha" type="xs:date">
+        </xs:element>
+
         <xs:element name="observaciones">
           <xs:simpleType>
             <xs:restriction base="xs:string">
@@ -35,7 +38,7 @@
         <xs:element name="plazoRevision" type="xs:integer">
         </xs:element>
 
-        <xs:element name="articulo" maxOccurs="unbounded" minOccurs="0">
+        <xs:element name="articulo" maxOccurs="50" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="codigoArt"/>
