@@ -101,6 +101,24 @@ p {
     color: pink;
 }
 
+#tag7{
+    font-size: 68px;
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    font-family: monospace;
+    color: blueviolet;
+}
+
+#tag8{
+    font-size: 67px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+}
+
 /*APARTADO 3*/
 
 #shadowtexts {
