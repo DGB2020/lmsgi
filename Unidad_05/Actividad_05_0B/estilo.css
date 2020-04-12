@@ -196,26 +196,24 @@ input ~ .tab { display: none }
 #tab5:checked ~ .tab.content5 { display: block; }
 
 input + label {             
-
     background: rgb(157,157,157);
     padding: 4px 12px;
     position: relative;
+}
 
-  }
-
-  input:checked + label {    
+input:checked + label {    
     background: rgb(210,210,210);
     border-bottom: 1px solid white;
-  }
+}
 
-  input ~ .tab {     
+input ~ .tab {     
     border-top: 1px solid #999;
     padding: 12px;
-  }
+}
 
-  #footer div{
+#footer div{
       background-color: rgb(210,210,210);
       border: 1px solid transparent;
-  }
+}
 
   
