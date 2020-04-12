@@ -3,10 +3,6 @@
     margin: 0px;
 }
 
-body {
-
-}
-
 #topnav {
     background-color: rgb(255,255,0);
     border: 1px solid black;
@@ -183,11 +179,7 @@ p {
     font-size: 17px;     
 }
 
-#footernav a {
-    background-color: grey;
-}
+/*APARTADO 4*/
 
-#footernav a:hover {
-    background-color: blue;
-}
+
 
