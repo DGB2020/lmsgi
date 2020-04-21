@@ -1,0 +1,22 @@
+label {
+	display: block;
+}
+
+ul li {
+	border: 1px solid grey;
+}
+
+li:hover {
+	background-color: #ff9;
+}
+
+ul li .ayuda {
+	display: none;
+}
+
+ul li:hover p.ayuda
+{
+	display: block;
+	position: relative;
+	left: 80%;
+}

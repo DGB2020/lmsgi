@@ -1,0 +1,37 @@
+* {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+p {	
+	color: #555;
+}
+
+#principal p {
+	color: #336699;
+}
+
+a {
+	color: #cc3300;
+}
+
+#principal em {
+	background-color: #FFFFCC;
+	padding: 0.1em;
+
+}
+
+ .segundo {
+	background-color: #ffcc99;
+	border: 1px solid #ff9900;
+	padding: 0.1em;
+}
+
+.divisor span {
+	font-weight: bold; 
+}
+
+em {
+		font-style: normal;
+}
