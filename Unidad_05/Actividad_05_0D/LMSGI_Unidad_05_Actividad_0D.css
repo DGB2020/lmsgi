@@ -13,7 +13,7 @@ h2 {
 	border: 1px solid lightgrey;
 	background-color: white;
 	width: 80%;
-margin-left: 10%;
+	margin-left: 10%;
 }
 
 label {
@@ -28,15 +28,9 @@ ul li .ayuda {
 	display: none;
 }
 
-
-
 ul li:hover p.ayuda
 {	
-
-	display: inline-block;
-	position: relative;
-	left: 70%;
-	margin-top: 1%;
+	display: list-item;
 }
 
 .requerido {
@@ -55,4 +49,10 @@ ul li:hover p.ayuda
 
 #apellido1, #apellido2, #direccion, #email {
 	width: 23em;
+}
+
+
+input:focus {
+	background-color: #e6b700;
+	border: 4px solid #e6b700;;
 }
