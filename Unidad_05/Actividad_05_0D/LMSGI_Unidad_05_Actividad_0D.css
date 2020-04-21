@@ -2,9 +2,6 @@ label {
 	display: block;
 }
 
-ul  {
-	border: 1px solid grey;
-}
 
 li:hover {
 	background-color: #ff9;
@@ -14,12 +11,15 @@ ul li .ayuda {
 	display: none;
 }
 
+
+
 ul li:hover p.ayuda
-{
-	display: block;
+{	
+
+	display: inline-block;
 	position: relative;
-	left: 80%;
-	top: 80%;
+	left: 70%;
+	margin-top: 1%;
 }
 
 .requerido {
@@ -28,4 +28,9 @@ ul li:hover p.ayuda
 
 .titulo {
 	font-weight: bold;
+}
+
+/*inputs*/
+#email {
+	width: 25em;
 }
