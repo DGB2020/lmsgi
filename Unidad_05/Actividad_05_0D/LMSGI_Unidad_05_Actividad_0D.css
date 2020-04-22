@@ -67,6 +67,11 @@ ul li:hover p.ayuda
 	font-weight: bold;
 }
 
+ul hr {
+	width: 95%;
+	margin-right:  5%;
+}
+
 /*inputs*/
 
 #alta {
