@@ -11,9 +11,9 @@
 			<hr>
 			<form method="post"action="#">
 				<ul>
-					<li class="izquierda">
+					<li id="bloqueNombre" class="izquierda">
 						<label class="titulo"for="nombre">Nombre y apellidos <span class="requerido">*</span></label>
-						<div>
+						<div >
 							<span>
 							<input id="nombre"name="nombre"value=""/>
 							<label for="nombre">Nombre</label>
@@ -30,9 +30,9 @@
 						<p class="ayuda">No te olvides de escribir también tu segundo apellido</p>
 					</li>
 					<hr>
-					<li class="derecha">
+					<li id="bloqueDir" class="derecha">
 						<label class="titulo"for="direccion">Dirección <span class="requerido">*</span></label>
-						<div>
+						<div >
 							<span>
 								<input id="direccion"name="direccion"value=""/>
 								<label for="direccion">Calle, número, piso, puerta</label>
@@ -67,7 +67,7 @@
 						<p class="ayuda">El código postal es imprescindible para poder recibir los pedidos</p>
 					</li>
 					<hr>
-					<li class="izquierda">
+					<li id="bloqueEmail" class="izquierda">
 						<label class="titulo"for="email">Email</label>
 						<div>
 							<span>
@@ -77,7 +77,7 @@
 						<p class="ayuda">Asegúrate de que sea válido</p>
 					</li>
 					<hr>
-					<li class="derecha">
+					<li id="bloqueTelf" class="derecha">
 						<label class="titulo"for="telefonofijo">Teléfono <span class="requerido">*</span></label>
 						<div>
 							<span>
@@ -91,7 +91,7 @@
 						</div>
 						<p class="ayuda">Sin prefijo de país y sin espacios en blanco</p>
 					</li>
-
+					<hr>
 					<li class="botones">
 						<input id="alta"type="submit"value="Darme de alta"/>
 					</li>
