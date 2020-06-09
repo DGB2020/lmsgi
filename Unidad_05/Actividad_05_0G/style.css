@@ -1,0 +1,28 @@
+body {
+	width: 100%;
+	margin: 0px;
+
+}
+
+header {
+	background-color: pink;
+	height: 110px;
+}
+
+nav {
+	background-color: grey;
+	width: 100%;
+	align-self: center;
+}
+
+li {
+	display: inline-block;
+}
+
+li img {
+	width: 128px;
+}
+
+li a {
+	text-decoration: none;
+}
