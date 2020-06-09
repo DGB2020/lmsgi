@@ -24,7 +24,7 @@ header {
 nav {
 	float: left;
 	background-color: rgb(96, 177, 113);
-	max-width: 55%;
+	max-width: 95%;
 	min-width: 43%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -40,6 +40,7 @@ li {
 
 li img {
 	width: 112px;
+	padding-right: 14px;
 }
 
 li a {
