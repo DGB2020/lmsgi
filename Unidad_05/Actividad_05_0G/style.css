@@ -22,10 +22,11 @@ header {
 nav {
 	float: left;
 	background-color: burlywood;
-	width: 322px;
+	width: 45%;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 0.5em;
+	margin-top: 1em;
 	border-radius: 2em;
 	z-index: 0;
 }
@@ -36,7 +37,7 @@ li {
 }
 
 li img {
-	width: 10%;
+	width: 90px;
 }
 
 li a {
