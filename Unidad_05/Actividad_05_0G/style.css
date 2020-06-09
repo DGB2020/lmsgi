@@ -22,7 +22,7 @@ header {
 nav {
 	float: left;
 	background-color: rgb(177, 142, 96);
-	width: 45%;
+	width: 51%;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 0.5em;
@@ -33,7 +33,6 @@ nav {
 
 li {
 	display: inline-block;
-
 }
 
 li img {
