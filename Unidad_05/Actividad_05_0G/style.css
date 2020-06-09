@@ -21,7 +21,7 @@ header {
 
 nav {
 	float: left;
-	background-color: burlywood;
+	background-color: rgb(177, 142, 96);
 	width: 45%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -47,7 +47,7 @@ li a {
 header h1 {
 	float: left;
 	font-family: animal, Arial, Helvetica, sans-serif;
-	font-size: 3.5em;
+	font-size: 44px;
 	margin-left: 5%;
 	color: lightgreen;
 	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.85)
